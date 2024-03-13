@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Perfiles";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class=" page_render " id="renderLocalProfile">
+
+    
+    <partial name="_ShowProfiles"></partial>
+    
+
+</div>
+
+
+@Html.Partial("_AddProfile")
+@Html.Partial("_EditProfile")
+<script src="/js/Profile.js"></script>

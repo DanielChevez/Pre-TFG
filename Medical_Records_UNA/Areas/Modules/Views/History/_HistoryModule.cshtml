@@ -1,0 +1,443 @@
+﻿@using Medical_Records_Utilities.Extensions;
+@model List<Medical_Record_Models.ViewModels.DiseaseVM>
+@{
+
+    List<Medical_Record_Models.ViewModels.DiseaseVM> pathologicalDiseases = Context.Session.GetObject<List<Medical_Record_Models.ViewModels.DiseaseVM>>("PathologicalDiseases");
+
+    if (pathologicalDiseases == null)
+    {
+        pathologicalDiseases = new();
+
+    }
+}
+
+
+
+
+<style>
+    /* Estilo para las cajas de tipo */
+    .tipo-box {
+        border-radius: 20px;
+        border: 3px solid #92cace;
+        margin: 10px; /* Espacio alrededor de la caja */
+        padding: 10px; /* Espacio interno de la caja */
+        width: 200px;
+    }
+
+    /* Estilo para las cajas de opciones */
+    .opciones {
+        margin: 5px; /* Espacio entre las opciones */
+    }
+
+    .list_checks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        overflow: auto;
+        /* max-height: 92%; */
+        max-height: 94%;
+        list-style-type: none;
+    }
+
+    /* .titulo_tipo {
+        display: fl
+    }
+ */
+    .dual_table {
+        margin:10px;
+        max-width: 99%;
+        display:flex;
+        overflow-x:auto;
+        
+        
+        
+    }
+    td{
+ 
+        justify-content:center;
+    }
+</style>
+
+
+<div class="accordion " id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Antecedentes Heredo-Familiares
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body salud-bg-2">
+
+                <div class="card " @* style="background-color:#cbdad5;" *@>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="">Heredo-Familiares</h3>
+                        <div id="" class="buttons_page">
+                            <button id="edit_heredo_familiar" class="btn btn-outline-warning">  <i id="icon_btn" class='bx bxs-edit bx-tada'></i> Editar </button>
+                            <button hidden id="cancelar_heredo_familiar" class="btn btn-outline-danger">
+                                <i class='bx bxs-x-square bx-flashing bx-flip-vertical'></i>  Cancelar
+                            </button>
+                            <button hidden class="btn btn-outline-success" id="guardar_heredo_familiar"> <i class='bx bxs-save bx-tada bx-flip-vertical'></i>  Guardar</button>
+                        </div>
+
+                    </div>
+                    <div class="user-info  ">
+
+                        <form id="form_heredo_familiar">
+                            <div id="disease_check">
+                                <div class="">
+                                    <ul id="list_diseases" class="list_checks">
+                                        @foreach (var item in Model)
+                                        {
+                                            if (item.Diseases.Count > 0)
+                                            {
+                                                <li id="tipo">
+                                                    @if (item.Diseases.Count > 0)
+                                                    {
+                                                        <div class="tipo-box">
+                                                            <!-- Agregar la clase CSS para la caja de tipo -->
+
+                                                            <div id="titulo_tipo" class="d-flex justify-content-center">
+                                                                <h3>@item.Tipo</h3>
+                                                                <hr />
+                                                            </div> <!-- Título del tipo -->
+                                                            @foreach (var child in item.Diseases)
+                                                            {
+                                                                <div class="opciones checkbox-group">
+                                                                    <!-- Agregar la clase CSS para las opciones -->
+
+                                                                    <div class="mb-2">
+                                                                        <input type="checkbox" class="form-check-input" data-id="@child.Id_Enfermedad" disabled checked="@child.Activo" />
+                                                                        <span class="font-weight-bold">@child.Nombre</span>
+
+                                                                        <input type="text" disabled data-id="parentesco_@child.Id_Enfermedad" placeholder="Parentesco" value="@child.Parentesco" id="parentesco_@child.Id_Enfermedad" class="form-control" />
+                                                                    </div>
+
+                                                                </div>
+                                                            }
+                                                        </div>
+                                                    }
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <!-- PATOLOGICO -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Antecedentes Patológicos
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body salud-bg-2">
+                <div class="d-flex justify-content-between">
+                    <div class="card ">
+                        <!-- TITULO -->
+                        <div class="d-flex justify-content-between">
+                            <h3 class=""> Patológicos</h3>
+                            <!-- BOTONES FORMULARIO -->
+                            <div id="" class="buttons_page">
+                                <button id="edit_pathological_diseases" class="btn btn-outline-warning">  <i id="icon_btn" class='bx bxs-edit bx-tada'></i> Editar </button>
+                                <button hidden id="cancelar_pathological_diseases" class="btn btn-outline-danger"> <i class='bx bxs-x-square bx-flashing bx-flip-vertical'></i>  Cancelar</button>
+                                <button hidden class="btn btn-outline-success" id="guardar_pathological_diseases"> <i class='bx bxs-save bx-tada bx-flip-vertical'></i>  Guardar</button>
+                            </div>
+
+
+                        </div>
+                        <div class="user-info  ">
+
+                            <h4> Enfermedades </h4>
+                            <form id="form_pathological_disease">
+                                <hr />
+                                <div id="disease_check">
+                                    <div class="">
+                                        <ul id="list_diseases" class="list_checks">
+                                            @foreach (var item in pathologicalDiseases)
+                                            {
+                                                if (item.Diseases.Count > 0)
+                                                {
+                                                    <li id="tipo">
+                                                        @if (item.Diseases.Count > 0)
+                                                        {
+                                                            <div class="tipo-box">
+                                                                <!-- Agregar la clase CSS para la caja de tipo -->
+
+                                                                <div id="titulo_tipo" class="d-flex justify-content-center">
+                                                                    <h3>@item.Tipo</h3>
+                                                                    <hr />
+                                                                </div> <!-- Título del tipo -->
+                                                                @foreach (var child in item.Diseases)
+                                                                {
+                                                                    <div id="pathologicalDiseases" class="opciones checkbox-group">
+                                                                        <!-- Agregar la clase CSS para las opciones -->
+
+                                                                        <div class="mb-2">
+                                                                            <input type="checkbox" class="form-check-input" data-id="@child.Id_Enfermedad" disabled checked="@child.Activo" />
+                                                                            <span class="font-weight-bold">@child.Nombre</span>
+
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                }
+                                                            </div>
+                                                        }
+                                                    </li>
+                                                }
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row" style="flex-wrap:wrap;">
+                                    <div class="dual_table">
+                                        
+                                        <div class="container m-1">
+                                            <div class="header_page">
+                                                <h3>Condiciones Médicas</h3>
+                                                <button type="button" class="btn btn-outline-primary m-2 " id="create_condition">
+                                                    <i class='bx bx-plus-circle bx-flashing'></i>
+                                                   Condición Médica
+                                                </button>
+                                            </div>
+                                            <div class="" id="table_render_surgery">
+                                                <div class="table_custom">
+                                                    <table class="table  table-hover table_scroll" style="text-align:center;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>#</th>
+                                                                <th>Nombre</th>
+
+                                                                <th>Descripción</th>
+                                                                <th>Tipo</th>
+                                                                <th>Acciones</th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody style="align-items:center;">
+                                                            <tr>
+                                                                <th>1</th>
+                                                                <td>Presión Alta</td>
+                                                                <td>Produce desmayos</td>
+                                                                <td> Sanguínea</td>
+
+                                                                <td>
+
+                                                                    <button class="btn btn-outline-danger"> <i class='bx bxs-trash bx-tada'></i> </button>
+                                                                    <button class="btn btn-outline-warning"><i class='bx bx-edit bx-tada'></i></button>
+                                                                    <button class="btn btn-outline-info">Recomendanción</button>
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="container m-1">
+                                            <div class="header_page">
+                                                <h3>Cirugías</h3>
+                                                <button type="button" class="btn btn-outline-primary m-2 " id="create_disease">
+                                                    <i class='bx bx-plus-circle bx-flashing'></i>
+                                                    Agregar Cirugía
+                                                </button>
+                                            </div>
+                                            <div class="" id="table_render_surgery">
+                                                <div class="table_custom">
+                                                    <table class="table  table-hover table_scroll" style="text-align:center;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>#</th>
+                                                                <th>Nombre</th>
+
+                                                                <th>Fecha realizada</th>
+                                                                <th>Acciones</th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody style="align-items:center;">
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>Limpieza estomacal</td>
+                                                                <td> 10/072023</td>
+                                                                <td>
+
+
+                                                                    <button class="btn btn-outline-danger"> <i class='bx bxs-trash bx-tada'></i> </button>
+                                                                    <button class="btn btn-outline-warning"><i class='bx bx-edit bx-tada'></i></button>
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+
+                            </form>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <!-- NO PATOLOGICO -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNoPathological" aria-expanded="false" aria-controls="panelsStayOpen-collapseNoPathological">
+                Antecedentes No Patológicos
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseNoPathological" class="accordion-collapse collapse">
+            <div class="accordion-body salud-bg-2">
+                <div class="d-flex justify-content-between">
+                    <div class="card ">
+                        <!-- TITULO -->
+                        <div class="d-flex justify-content-between">
+                            <h3 class="">No Patológicos</h3>
+                            <!-- BOTONES FORMULARIO -->
+                            <div id="" class="buttons_page">
+                                <button id="edit_info_familiar" class="btn btn-outline-warning">  <i id="icon_btn" class='bx bxs-edit bx-tada'></i> Editar </button>
+                                <button hidden id="cancelar_info_familiar" class="btn btn-outline-danger"> <i class='bx bxs-x-square bx-flashing bx-flip-vertical'></i>  Cancelar</button>
+                                <button hidden class="btn btn-outline-success" id="guardar_info_familiar"> <i class='bx bxs-save bx-tada bx-flip-vertical'></i>  Guardar</button>
+                            </div>
+
+
+                        </div>
+                        <div class="user-info  ">
+
+
+                            <div class="row" style="flex-wrap:wrap;">
+                                <div class="dual_table">
+
+                                    <div class="container m-1">
+                                        <div class="header_page">
+                                            <h3>Habitos </h3>
+                                            <button type="button" class="btn btn-outline-primary m-2 " id="create_disease">
+                                                <i class='bx bx-plus-circle bx-flashing'></i>
+                                                Agregar Habito
+                                            </button>
+                                        </div>
+                                        <div class="" id="table_render_surgery">
+                                            <div class="table_custom">
+                                                <table class="table  table-hover table_scroll" style="text-align:center;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Nombre</th>
+
+                                                            
+                                                            <th>Categoría</th>
+                                                            <th>Frecuencia</th>
+                                                            <th>Acciones</th>
+
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody style="align-items:center;">
+                                                        <tr>
+                                                            <th>1</th>
+                                                            <td>Sueño</td>
+                                                            <td>Ciesta</td>
+                                                            <td> 8 hrs</td>
+                                                            
+
+                                                            <td>
+
+
+                                                                <button class="btn btn-outline-danger"> <i class='bx bxs-trash bx-tada'></i> </button>
+                                                                <button class="btn btn-outline-warning"><i class='bx bx-edit bx-tada'></i></button>
+                                                                <button class="btn btn-outline-info">Descripción</button>
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="container m-1">
+                                        <div class="header_page">
+                                            <h3>Adicciones </h3>
+                                            <button type="button" class="btn btn-outline-primary m-2 " id="create_disease">
+                                                <i class='bx bx-plus-circle bx-flashing'></i>
+                                                Agregar Adicción
+                                            </button>
+                                        </div>
+                                        <div class="" id="table_render_surgery">
+                                            <div class="table_custom">
+                                                <table class="table  table-hover table_scroll" style="text-align:center;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Nombre</th>
+
+                                                            <th>Descripción</th>
+                                                            <th>Gravedad</th>
+
+                                                            <th>Acciones</th>
+
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody style="align-items:center;">
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Tabaquismo</td>
+                                                            <td> 3 Cigarros al día</td>
+                                                            <td> Baja</td>
+                                                            <td>
+
+
+                                                                <button class="btn btn-outline-danger"> <i class='bx bxs-trash bx-tada'></i> </button>
+                                                                <button class="btn btn-outline-warning"><i class='bx bx-edit bx-tada'></i></button>
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

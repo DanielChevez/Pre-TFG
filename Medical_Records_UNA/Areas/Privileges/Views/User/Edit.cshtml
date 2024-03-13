@@ -1,0 +1,254 @@
+﻿@using Medical_Record_Models.ModelsGeneric;
+@using Medical_Records_Utilities.Extensions;
+@using Medical_Record_Models.DTO;
+@{
+    ViewBag.Title = "Editar Usuario";
+
+    List<Perfil_Usuario> profilesUser = (List<Perfil_Usuario>)ViewBag.profiles;
+    List<SelectListItem> opcProfiles = (List<SelectListItem>)ViewBag.opcProfiles;
+
+    UserDTO user = new();
+    user = Context.Session.GetObject<UserDTO>("editUser");
+
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+
+
+
+}
+
+
+<div class="page_render scroll">
+    <div class="cont">
+        <div class="card">
+            <h3 class="">Editar Usuario</h3>
+
+            <img src="/img/men_img.png" alt="Foto de perfil" class="profile-pic">
+            <div class="user-info">
+                <form class=" rounded " id="form_edit_user">
+
+                    <div class="d-flex justify-content-center">
+                        <!-- Nombre de Usuario -->
+                        <div class="col-4 form-outline m-1">
+                            <input disabled value="@user.NombreUsuario" type="text" id="edit_nombreUsuario" class="form-control " pattern="[a-zA-Z0-9_]{1,70}"
+                                   title="El nombre de usuario debe contener entre 1 y 70 caracteres alfanuméricos (puedes usar guiones bajos '_').">
+                            <label class="form-label salud-color" for="nombreUsuario">Nombre de Usuario</label>
+                        </div>
+                        <div class="col-4 m-1">
+                            <!-- Contraseña -->
+                            <div class="form-outline">
+                                <input type="password" id="edit_contraseña" class="form-control " pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d$!%*?&]{1,100}$"
+                                       title="La contraseña debe contener al menos 8 caracteres, incluyendo al menos una mayúscula, una minúscula y un número.">
+                                <label class="form-label salud-color" for="contraseña">Contraseña</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+
+
+                        <hr />
+                        <div class="row justify-content-center">
+
+
+                            <div class="col-5">
+                                <!-- Nombre -->
+                                <div class="form-outline">
+                                    <input value="@user.Nombre" type="text" id="edit_nombre" class="form-control  " pattern="[a-zA-Z\s]{1,100}" required
+                                           title="El nombre debe contener entre 1 y 100 caracteres alfabéticos (puedes usar espacios).">
+                                    <label class="form-label salud-color" for="nombre">Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <!-- Cedula -->
+                                <div class="form-outline">
+                                    <input value="@user.Identification" type="text" id="edit_cedula" class="form-control  " pattern="[0-9]{1,20}" required
+                                           title="La cédula debe contener entre 1 y 20 dígitos numéricos.">
+                                    <label class="form-label salud-color" for="cedula">Cedula</label>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row justify-content-center ">
+
+                            <div class="col-3">
+                                <!-- Correo Electrónico -->
+                                <div class="form-outline">
+                                    <input value="@user.CorreoElectronico" type="email" id="edit_email" class="form-control " maxlength="100" required>
+                                    <label class="form-label salud-color" for="email">Correo Electrónico</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <!-- Tipo de Usuario -->
+                                <div class="form-outline">
+                                    <select id="edit_rol" name="rol" required class="form-control  ">
+                                        <option  value="" disabled >Seleccione</option>
+                                        <option selected value="@user.Tipo"> @user.Tipo</option>
+                                        <option value="Profesor">Coordinador</option>
+                                        <option value="Profesor">Profesor</option>
+                                        <option value="Asistente">Asistente</option>
+                                        <option value="Paciente">Paciente</option>
+                                    </select>
+                                    <label class="form-label salud-color" for="rol">Tipo de Usuario</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <!-- Activar Usuario -->
+                                <div class="form-outline ">
+                                    <div class="form-check form-switch " style="display:grid; justify-content:center;">
+
+                                        <input class="form-check-input" type="checkbox" id="edit_activo" checked="@user.Activo" />
+
+                                    </div>
+                                    <label class="form-check-label salud-color" for="activo">Activar Usuario</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="row justify-content-center ">
+                            <div class="col-3">
+                                <!-- Teléfono -->
+                                <div class="form-outline">
+                                    <input value="@user.Telefono" type="tel" id="edit_tel" class="form-control  " pattern="[0-9]{8,15}" required
+                                           title="El número de teléfono debe contener entre 8 y 15 dígitos numéricos.">
+                                    <label class="form-label salud-color" for="tel">Teléfono</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <!-- WhatsApp -->
+                                <div class="form-outline">
+                                    <input value="@user.whatsApp" type="tel" id="edit_whatsapp" class="form-control  " pattern="[0-9]{8,15}"
+                                           title="El número de WhatsApp debe contener entre 8 y 15 dígitos numéricos." placeholder="Opcional">
+                                    <label class="form-label salud-color" for="whatsapp">WhatsApp</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="col mt-2 d-flex justify-content-center mb-2">
+                        <a type="button" class="btn btn-danger" style="margin:4px;" href="@Url.Action("Index","User")">Cerrar</a>
+                        <input type="submit" id="btn_modal_edit_user" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    @if (Actions.Contains(13))
+    {
+        <div class="container">
+            <div class="col">
+                <div class="tab_box">
+
+                    <button class="tab_btn active">Perfiles</button>
+                    <div class="line"></div>
+                </div>
+
+                <div class="content_box">
+                    <div class="content active">
+
+                        <div class="tab-content ">
+
+
+                            <div class="row ">
+                                @if (Actions.Contains(11))
+                                {
+                                    <div class="col-4 col-md-4  col-sm-12 " style="z-index:1;">
+
+
+                                        <div class="form-select" id="selectProfiles">
+                                            @Html.Partial("_SelectOpcProfile", opcProfiles)
+                                        </div>
+
+                                        <div class="row mt-4 d-flex justify-content-center">
+                                            <div class="col-xl-6 col-md-6 col-sm-4 mb-3 mt-2">
+
+
+                                                <button id="addPerfilUsuario" type="button" class="btn btn-primary col-12">
+                                                    <i class="fa fa-plus mr-1" aria-hidden="true"></i>
+                                                    Agregar
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                }
+
+                                <div class="col">
+
+                                    <div class="row m-1">
+
+                                        <div class="row m-1">
+                                            <div class="d-flex w-100 justify-content-between">
+
+                                                <h4 class="col-7 ps-2">Perfiles asociados al Usuario</h4>
+                                                <!--Barra busqueda-->
+                                                <div class="col input-group ">
+                                                    <input type="text"
+                                                           class="form-control"
+                                                           placeholder="Buscar..."
+                                                           aria-label="Buscar..."
+                                                           aria-describedby="button-search"
+                                                           id="buscarPU" value="@ViewBag.palabraBuscar" />
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row " style="padding-left:50px;">
+                                            <select id="tamanoPaginaPU" class=" col-sm-2 custom-select select-item border-light" aria-label="Default select example">
+
+                                                <option value="2">2</option>
+                                                <option value="5">5</option>
+                                                <option value="10">10</option>
+
+
+                                            </select>
+                                        </div>
+
+                                        <div class="row table_render" id="tableProfilesUser">
+                                            @Html.Partial("_ProfilesUser", profilesUser)
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    }
+</div>
+
+
+<script src="/js/User.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        originalFormValues = getFormValues(formElement);
+
+    });
+
+</script>

@@ -1,0 +1,632 @@
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\appsettings.Development.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\appsettings.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.staticwebassets.runtime.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.exe
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.deps.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.runtimeconfig.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Azure.Core.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Azure.Identity.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\EntityFramework.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Humanizer.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\MessagePack.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.Mvc.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.Razor.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Common.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.CodeDom.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Text.Json.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Data.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Models.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Data.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Models.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.csproj.AssemblyReference.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.AssemblyInfoInputs.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.AssemblyInfo.cs
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.csproj.CoreCompileInputs.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.MvcApplicationPartsAssemblyInfo.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.RazorAssemblyInfo.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.RazorAssemblyInfo.cs
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.Medical_Records_UNA.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.build.Medical_Records_UNA.props
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Medical_Records_UNA.props
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Medical_Records_UNA.props
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets.build.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets.development.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\scopedcss\bundle\Medical_Records_UNA.styles.css
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\scopedcss\projectbundle\Medical_Records_UNA.bundle.scp.css
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.csproj.CopyComplete
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\refint\Medical_Records_UNA.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.genruntimeconfig.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\ref\Medical_Records_UNA.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\appsettings.Development.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\appsettings.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.staticwebassets.runtime.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.exe
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.deps.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.runtimeconfig.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_UNA.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Azure.Core.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Azure.Identity.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\EntityFramework.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Humanizer.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\MessagePack.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.Mvc.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.Razor.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Common.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.CodeDom.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Text.Json.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Data.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Models.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Data.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\bin\Debug\net6.0\Medical_Record_Models.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.csproj.AssemblyReference.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.AssemblyInfoInputs.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.AssemblyInfo.cs
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.csproj.CoreCompileInputs.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.MvcApplicationPartsAssemblyInfo.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.RazorAssemblyInfo.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.RazorAssemblyInfo.cs
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.Medical_Records_UNA.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.build.Medical_Records_UNA.props
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Medical_Records_UNA.props
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Medical_Records_UNA.props
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets.build.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\staticwebassets.development.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\scopedcss\bundle\Medical_Records_UNA.styles.css
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\scopedcss\projectbundle\Medical_Records_UNA.bundle.scp.css
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.csproj.CopyComplete
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\refint\Medical_Records_UNA.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\Medical_Records_UNA.genruntimeconfig.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_UNA\obj\Debug\net6.0\ref\Medical_Records_UNA.dll

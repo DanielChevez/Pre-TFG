@@ -1,0 +1,107 @@
+﻿@using Medical_Record_Models.DTO;
+@using Medical_Records_Utilities.Extensions;
+
+@{
+    int i = 0;
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+
+    List<ProfileDTO> profiles = Context.Session.GetObject<List<ProfileDTO>>("ProfileList");
+
+
+    if (profiles == null)
+    {
+        profiles = new List<ProfileDTO>();
+    }
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+
+}
+<div class="table_custom ">
+
+    <table class="table  table-hover table_scroll" style="text-align:center;">
+        <thead>
+            <tr>
+                <th scope="col" class="">#</th>
+                <th scope="col" class="">Nombre</th>
+                <th scope="col" class="">Descripcion</th>
+                <th scope="col" class="">Activo</th>
+
+                <th scope="col" class="">Acciones</th>
+            </tr>
+        </thead>
+        <tbody style="align-items:center;">
+            @if (profiles != null && profiles.Count > 0)
+            {
+                
+                foreach (var p in profiles)
+                {
+                    i++;
+                    <tr>
+                        <td>@p.IdPerfil</td>
+                        <td>@p.Nombre</td>
+                        <td>@p.Descripcion</td>
+                        @if (Actions.Contains(8))
+                        {
+                            <td style=" display:flex; justify-content:center;">
+                                <div class="form-check form-switch">
+                                    <input style="" class="form-check-input" type="checkbox" role="switch" name="state_profile" data-id="@p.IdPerfil" checked="@p.Activo">
+                                    @*<label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>*@
+                                </div>
+
+                            </td>
+                        }
+                        else
+                        {
+                            if (p.Activo)
+                            {
+                                <td> Activado</td>
+                            }
+                            else
+                            {
+                                <td> Desactivado</td>
+                            }
+                        }
+                        <td>
+                            @if (Actions.Contains(8))
+                            {
+                            <a href="@Url.Action("Edit","Profile", new {IdPerfil = p.IdPerfil})"
+                               data-id="@p.IdPerfil" id="btn_edit_profil" type="button"
+                               class="btn btn-warning">  <i class="fa-solid fa-pen-to-square"></i> Editar</a>
+                            }
+                            @if (Actions.Contains(14))
+                            {
+                                <button type="button" id="delete_profile" data-id="@p.IdPerfil" class="btn btn-danger"> <i class="fa-solid fa-trash-can"></i> Eliminar</button>
+                            }
+                        </td>
+
+                    </tr>
+                }
+            }
+
+        </tbody>
+
+    </table>
+
+</div>
+
+
+
+<div class="pagination">
+
+    <div class="buttons_page">
+
+        @if (@ViewBag.PagActual > 1)
+        {
+            <input type="button" class="btn btn-outline-secondary" value="<" data-value="@ViewBag.PagActual" id="previousPage" />
+        }
+        @if (@ViewBag.PagActual != @ViewBag.totalPag && i != 0)
+        {
+            <input type="button" class="btn btn-outline-secondary" value=">" data-value="@ViewBag.PagActual" id="nextPage" />
+
+        }
+    </div>
+    <label>Pagina Actual: <span id="pagActual">@ViewBag.PagActual</span></label>
+    <label>Total de paginas: <span id="totalPag">@ViewBag.totalPag</span></label>
+</div>

@@ -1,0 +1,227 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+input {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.rounded-modal .swal2-popup {
+    border-radius: 15px; /* Ajusta el valor para controlar la curvatura de los bordes */
+}
+
+/* Estilos del contenedor principal (container) */
+.principal {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.sidebar {
+    width: 260px;
+    background: #11101d;
+    z-index: 99;
+    transition: all 0.5s ease;
+}
+
+.home-section {
+    width: 100%;
+    background: #E4E9F7;
+    transition: all 0.5s ease;
+    height: auto;
+}
+
+    .home-section .home-content {
+        width: 97%;
+        height: 96%;
+    }
+
+.home_img {
+    height: 90%;
+    display: grid;
+    place-items: center;
+}
+
+    .home_img img {
+        width: 40%;
+    }
+
+
+
+.footer_page {
+    display: grid;
+    justify-content: center;
+}
+
+.page_render {
+    box-shadow: 2px 2px 25px #00ffff;
+    border-radius: 20px;
+    width: 100%;
+    margin: 20px;
+    padding: 15px;
+    height:96%;
+  overflow:hidden;
+    /*max-height: 94vh;*/
+}
+
+.header_page {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .header_page div {
+        /*margin:5px;*/
+        /*display:inline-block;*/
+        display: flex;
+    }
+
+    .header_page .search {
+    }
+
+.table_render {
+
+    
+    height: 95.5%;
+    max-height: 100%;
+    padding: 0;
+    padding:10px;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+    .pagination .buttons_page {
+        margin-top
+        /*padding: 5px 10px;*/
+        border: none;
+        /*background-color: #3498db;*/
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+           
+    }
+
+.scroll {
+    overflow-y: auto;
+}
+scroll-tablex {
+overflow-x:auto;
+
+}
+
+
+
+.table_custom {
+    max-height: 94%;
+    overflow-y: auto;
+}
+ 
+.buttonModal{
+
+     margin-right:10px;
+}
+
+ 
+
+.salud-color {
+    color: #007bff; /* Azul */
+}
+
+.salud-bg {
+    background-color: #d1ecf1; /* Azul claro */
+    border-radius: 20px;
+}
+.salud-bg-2 {
+    background-color: #d1ecf1; /* Azul claro */
+    /*border-radius: 20px;*/
+}
+.gris {
+    background-color: #9cf1f7;
+    /*border-radius: 20px;*/
+}
+.center-cropped {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+.cont {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 100%;*/
+    /*max-height: 95%;*/
+    
+    margin: 0;
+    
+}
+/*
+.card {
+    width: 99%;
+    background-color: #ffffff;  
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    background-color: #d1ecf1;
+}
+*/
+.card {
+    width: 99%;
+    background-color: #f2f2f2; /* Cambia el color de fondo */
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Incrementa el espacio interior */
+    text-align: center; /* Alinea el texto a la izquierda */
+}
+
+.form-label.salud-color {
+    color: #007BFF; /* Color de etiquetas relacionado con la medicina */
+}
+
+/* Otros estilos personalizados según tus preferencias */
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+}
+
+.user-info h2 {
+    margin-top: 0;
+    padding: 5px;
+    color: #333333;
+    box-shadow: 0px 0px 20px #00ffff;
+    border-radius: 5px;
+}
+
+.user-info p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.user-info span {
+    font-weight: bold;
+}

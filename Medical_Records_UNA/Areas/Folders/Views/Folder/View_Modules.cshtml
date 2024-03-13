@@ -1,0 +1,158 @@
+﻿@model Medical_Record_Models.DTO.FolderDTO;
+@{
+    ViewBag.Title = "Expedinte Clínico";
+
+}
+<partial name="_Add_Update_Medical_Condition" />
+<script src="/js/Folder.js"></script>
+<script src="/js/InformationModule.js"></script>
+<script src="/js/HistoryModule.js"> </script>
+
+@*MODULES SCRIPTS*@
+
+
+<div class="page_render  ">
+
+    <div class="cont">
+        <div class="card">
+
+            <div class="d-flex justify-content-between">
+                <h3 class="">Mi Expediente Clínico</h3>
+
+                <div>
+                    <a class="btn btn-outline-danger" href="@Url.Action("Index","Folder")"> <i class='bx bx-arrow-back bx-tada'></i> Regresar</a>
+
+                    <button id="ver_modulos" hidden class="btn btn-outline-warning">  <i class='bx bxs-chevrons-left bx-flashing bx-flip-vertical'></i> Modulos </button>
+                    
+
+                </div>
+
+            </div>
+
+
+            <img src="/img/men_img.png" alt="Foto de perfil" class="profile-pic" />
+
+            <div class="user-info">
+                <div class="row ">
+                    <input hidden disabled type="text" id="id_paciente" class="form-control " value="@Model.Id_Paciente" />
+
+                    <div class="col">
+                        <div class="form-outline">
+                            <input disabled type="text" id="nombre_view" class="form-control " value="@Model.Nombre - @Model.Apellidos" />
+                            <label class="form-label salud-color" for="nombre">Nombre </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Cedula -->
+                        <div class="form-outline">
+                            <input type="text" id="cedula_view" class="form-control  " value="@Model.Cedula" disabled />
+                            <label class="form-label salud-color" for="cedula">Cedula</label>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <!-- FASE -->
+                        <div class="form-outline">
+                            <input type="text" id="fase_view" class="form-control  " value="@Model.Fase" disabled />
+                            <label class="form-label salud-color" for="cedula">Fase</label>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <!-- Condición -->
+                        <div class="form-outline">
+                            <input type="text" id="condicion_view" class="form-control  " value="@Model.Condicion_Rehabilitacion" disabled />
+                            <label class="form-label salud-color" for="condicion">Condición</label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+    <div class="module" id="module_render">
+        <div id="modules">
+            <div class="cards  ">
+                <div class="card_f" id="information">
+                    <img src="/img/items_folder/info.png" id="information" class="card-image" />
+                    <h2 id="information">Información</h2>
+                </div>
+
+                <div class="card_f" id="records">
+                    <img src="/img/items_folder/antecedentes2.png" class="card-image" id="records" />
+                    <h2 id="records">Antecedentes</h2>
+
+                </div>
+
+                <div class="card_f" id="control">
+                    <img src="/img/items_folder/asistencia.png" class="card-image" />
+                    <h2>Control</h2>
+                </div>
+
+                <div class="card_f" id="medicines">
+                    <img src="/img/items_folder/medicamentos.png" class="card-image" />
+                    <h2>Medicamentos</h2>
+
+                </div>
+
+                <div class="card_f" id="physical_activity">
+                    <img src="/img/items_folder/actividad-fisica.png" class="card-image" />
+                    <h2>Actividad Física</h2>
+                </div>
+                <div class="card_f" id="dates">
+                    <img src="/img/items_folder/citas.png" class="card-image" />
+                    <h2>Citas</h2>
+
+                </div>
+
+                <div class="card_f" id="questions">
+                    <img src="/img/items_folder/cuestionario.png" class="card-image" />
+                    <h2>Cuestionarios</h2>
+                </div>
+
+                <div class="card_f" id="documents">
+                    <img src="/img/items_folder/documentos.png" class="card-image" />
+                    <h2>Documentos</h2>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-center">
+                @* <a class="btn btn-danger" href="@Url.Action("Index","Folder")">Cerrar</a> *@
+                @* <a type="button" class="btn btn-danger" style="margin:4px;" href="@Url.Action("Index","Folder")">Cerrar</a> *@
+
+            </div>
+
+        </div>
+
+        <div id="module" class="mt-2 cont-2 ">
+
+            @* <partial name=""/> *@
+            @* <partial name="_HistoryModule"/> *@
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        const module = document.getElementById("module").name;
+        // console.log(module);
+        // if (module === "_HistoryModule") {
+        //     fetchMethod({
+        //         url: "/MedicalConditions/Disease/getTypes",
+        //         cbSuccess: (res) => {
+        //             console.log(res);
+
+        //         }
+        //     });
+        // }
+    });
+</script>

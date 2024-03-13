@@ -1,0 +1,120 @@
+﻿@using Medical_Record_Models.DTO;
+@using Medical_Records_Utilities.Extensions;
+
+
+@{
+    int i = 0;
+
+    //List<UserDTO> lstUsuarios = (List<UserDTO>)ViewBag.Usuarios;
+    List<UserDTO> lstUsuarios = Context.Session.GetObject<List<UserDTO>>("UsersList");
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+    if (lstUsuarios == null)
+    {
+        lstUsuarios = new List<UserDTO>();
+    }
+
+
+}
+
+
+
+<div class="table_custom ">
+
+    <table class="table  table-hover table_scroll" style="text-align:center;">
+        <thead>
+            <tr>
+                <th scope="col" class="">Usuario</th>
+                <th scope="col" class="">Nombre</th>
+                <th scope="col" class="">Cédula</th>
+                <th scope="col" class="">Correo</th>
+                <th scope="col" class="">Tipo</th>
+                <th scope="col" class="">Activo</th>
+                <th scope="col" class="">Acciones</th>
+            </tr>
+        </thead>
+        <tbody style="align-items:center;">
+            @if (lstUsuarios != null && lstUsuarios.Count > 0)
+            {
+                i++;
+                foreach (var u in lstUsuarios)
+                {
+                    <tr>
+                        <td>@u.NombreUsuario</td>
+                        <td>@u.Nombre</td>
+                        <td>@u.Identification</td>
+                        <td>@u.CorreoElectronico</td>
+                        <td>@u.Tipo</td>
+                        @if (Actions.Contains(5))
+                        {
+                            <td style=" display:flex; justify-content:center;">
+                                <div class="form-check form-switch">
+                                    <input style="" class="form-check-input" type="checkbox" role="switch" name="state_user" data-id="@u.NombreUsuario" checked="@u.Activo">
+                                    @*<label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>*@
+                                </div>
+
+                            </td>
+                        }
+                        else
+                        {
+                            if (u.Activo)
+                            {
+                                <td> Activado</td>
+                            }
+                            else
+                            {
+                                <td> Desactivado</td>
+                            }
+                        }
+
+                        <td>
+
+                            @if (Actions.Contains(5))
+                            {
+                                <a href="@Url.Action("Edit","User",new {Username = u.NombreUsuario})" type="button" class="btn btn-warning"> <i class="fa-solid fa-pen-to-square"></i> Editar</a>
+                            }
+
+                            <button type="button" id="more_info" data-id="@u.NombreUsuario" class="btn btn-info"> <i class="fa-solid fa-circle-info"></i> Más</button>
+                            @if (Actions.Contains(10))
+                            {
+                                <button type="button" id="delete_user" data-id="@u.NombreUsuario" class="btn btn-danger"> <i class="fa-solid fa-trash-can"></i> Eliminar</button>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="8">No existe registros actualmente</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>
+
+
+@*<div class="container_pa">*@
+<div class="pagination">
+
+    <div class="buttons_page">
+
+        @if (@ViewBag.PagActual > 1)
+        {
+            <input type="button" class="btn btn-outline-secondary" value="<" data-value="@ViewBag.PagActual" id="previousPage" />
+        }
+        @if (@ViewBag.PagActual != @ViewBag.totalPag && i != 0)
+        {
+            <input type="button" class="btn btn-outline-secondary" value=">" data-value="@ViewBag.PagActual" id="nextPage" />
+
+        }
+    </div>
+    <label>Pagina Actual: <span id="pagActual">@ViewBag.PagActual</span></label>
+    <label>Total de paginas: <span id="totalPag">@ViewBag.totalPag</span></label>
+</div>
+@*</div>*@

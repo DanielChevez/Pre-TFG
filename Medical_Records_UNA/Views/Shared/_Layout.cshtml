@@ -1,0 +1,321 @@
+﻿@*<!DOCTYPE html>
+<html lang="es">*@
+@using Medical_Records_Utilities.Extensions;
+@using System.Security.Claims;
+
+@{
+    var userName = "";
+    var email = "";
+    var claimUser = Context.User;
+    if (claimUser != null)
+    {
+        userName = claimUser.Identity.Name;
+
+        email = claimUser.FindFirst(ClaimTypes.Email).Value;
+    }
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    if (Actions == null)
+    {
+        Actions = new List<int>();    
+
+    }
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Rehabilitación UNA</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Medical_Records_UNA.styles.css" asp-append-version="true" />
+
+
+    <link rel="stylesheet" href="~/css/menu.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Folder.css" asp-append-version="true" />
+
+
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.11/themes/default/style.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.11/jstree.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.11/themes/default/style.min.css" />
+
+    <script src="https://kit.fontawesome.com/69e39bfeb4.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+</head>
+<body>
+    <div class="principal">
+        <div class="sidebar close">
+            <div class="logo-details">
+                <a asp-area="" asp-controller="Home" asp-action="Index">
+                    <img style="" class="logo" src="~/img/Logo Rojo.png" />
+                </a>
+        
+            </div>
+            <ul class="nav-links" id="layout">
+
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+        
+                            <i class="fa-solid fa-folder-open"></i>
+                            <span class="link_name">Expedientes</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+
+                        <li><a class="link_name">Expedintes</a></li>
+                        <li>
+                            <a asp-area="MedicalConditions" asp-controller="Disease" asp-action="Index">
+                                <i class="fa-solid fa-folder-plus"></i>
+                                Módulo Enfermedades
+                            </a>
+                        </li>
+                       @*  <li>
+                            <a>
+                                <i class="fa-solid fa-heart-pulse"></i>
+                                Cardiovascular
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="fa-solid fa-brain"></i>
+                                Cerebrovascular
+                            </a>
+                        </li> *@
+                        <li>
+                            <a>
+                                <i class="fa-solid fa-folder-plus"></i>
+                                Agregar Expediente
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="Folders" asp-controller="Folder" asp-action="Index">
+                                <i class="fa-solid fa-folder-tree"></i>
+                                Ver Expedientes
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            @*<i class='bx bx-book-alt'></i>*@
+                            <i class="fa-solid fa-user-injured"></i>
+                            <span class="link_name">Pacientes</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Pacientes</a></li>
+                        <li>
+                            <a>
+                                <i class="fa-solid fa-notes-medical"></i>
+                                Información
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="fa-solid fa-file-waveform"></i>
+                                Signos Vitales
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="fa-solid fa-pills"></i>
+                                Medicamentos
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <i class="fa-solid fa-unlock-keyhole"></i>
+                            <span class="link_name">Privilegios</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Privilegios</a></li>
+                        @if (Actions.Contains(6))
+                        {
+                            <li>
+
+                                <a asp-area="Privileges" asp-controller="User" asp-action="Index">
+                                    <i class="fa-solid fa-user"></i>
+                                    Adm. Usuarios
+                                </a>
+                            </li>
+                        }
+                        @if (Actions.Contains(9))
+                        {
+                            <li>
+
+                                <a asp-area="Privileges" asp-controller="Profile" asp-action="Index">
+                                    <i class="fa-regular fa-user"></i>
+                                    Adm. Perfiles
+                                </a>
+
+                            </li>
+                        }
+                    </ul>
+                </li>
+                @*
+
+                <li>
+                <a href="#">
+                <i class='bx bx-pie-chart-alt-2'></i>
+                <span class="link_name">Analytics</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Analytics</a></li>
+                </ul>
+                </li>
+                <li>
+                <a href="#">
+                <i class='bx bx-line-chart'></i>
+                <span class="link_name">Chart</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Chart</a></li>
+                </ul>
+                </li>
+                <li>
+                <a href="#">
+                <i class='bx bx-compass'></i>
+                <span class="link_name">Explore</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Explore</a></li>
+                </ul>
+                </li>
+                <li>
+                <a href="#">
+                <i class='bx bx-grid-alt'></i>
+
+                <i class="fa-solid fa-user"></i>
+                <span class="link_name">Usuarios</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Usuarios</a></li>
+                </ul>
+                </li>
+                <li>
+                <a href="#">
+                <i class='bx bx-history'></i>
+                <span class="link_name">Perfiles</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li>
+                <a class="link_name">
+                Perfiles
+
+                </a>
+                </li>
+                </ul>
+                </li>
+                <li>
+                <a href="#">
+                <i class='bx bx-cog'></i>
+                <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+                </li>*@
+                <li>
+                    <div class="profile-details">
+                        <div class="profile-content">
+                            <img src="~/img/CereCorazon.png" alt="profileImg">
+                        </div>
+                        <div class="name-job">
+                            <div class="profile_name">@userName</div>
+                            <div class="job">@email</div>
+                        </div>
+                        <a asp-area="" asp-controller="Home" asp-action="LogOut"><i class='bx bx-log-out'></i> </a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <section class="home-section">
+
+            <div class="home-content">
+                <div class="header ">
+                    <i class='bx bx-menu' style="width:10px;"> </i>
+                    @*<span class="text">Drop Down Sidebar</span>*@
+
+                </div>
+
+                <div id="renderBody" role="main" class="main">
+
+                    @RenderBody()
+                </div>
+
+
+            </div>
+            @* <footer class="border-top footer justify-content-center">
+            <div style=" padding-left:100px;">
+            &copy; 2023 - Medical_Records_UNA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+            </footer>*@
+        </section>
+
+
+
+        @*<main role="main" class="pb-3" id="renderBody">
+        @RenderBody()
+        </main>*@
+
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    @*<script src="~/js/site.js" asp-append-version="true"></script>*@
+    @*<script src="~/js/Menu.js" asp-append-version="true"></script>*@
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        let arrow = document.querySelectorAll(".arrow");
+        for (var i = 0; i < arrow.length; i++) {
+            arrow[i].addEventListener("click", (e) => {
+                let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+                arrowParent.classList.toggle("showMenu");
+            });
+        }
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".bx-menu");
+
+        sidebarBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        });
+    </script>
+</body>
+@*</html>*@

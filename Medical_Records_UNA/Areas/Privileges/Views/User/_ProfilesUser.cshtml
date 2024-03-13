@@ -1,0 +1,97 @@
+﻿@model List<Medical_Record_Models.ModelsGeneric.Perfil_Usuario>
+@using Medical_Record_Models.DTO;
+@using Medical_Records_Utilities.Extensions;
+@{
+    byte i = 0;
+
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+
+}
+
+
+
+<div class="table_custom">
+
+    <table id="profiles" class="table table-hover">
+        <thead>
+            <tr>
+                <th class="col">#</th>
+                <th class="col">Descripción</th>
+                <th class="col">Accion</th>
+            </tr>
+
+        </thead>
+        <tbody id="contentTable">
+            @if (Model != null && Model.Count > 0)
+            {
+                @foreach (var perfil in Model)
+                {
+                    i++;
+                    <tr>
+
+                        <td>
+                            @perfil.IdPerfil
+                        </td>
+                        <td>@perfil.Descripcion</td>
+                        <td>
+                            @if (Actions.Contains(8)) {
+                              @*   <a href = "/Profiles/Profile/Edit?IdPerfil=@perfil.IdPerfil" type="button" class="btn btn-warning">Editar</a> *@
+                            }
+                            @if (Actions.Contains(12)) {
+                                <input type="button" id="eliminarPerfilUsuario" value="Eliminar" data-id="@perfil.IdPerfil" class="btn btn-outline-danger" />
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            { 
+                <tr>
+                    <td colspan="3">No existe registros actualmente</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+
+
+
+
+
+    <div class="pagination">
+
+        <div class="buttons_page">
+
+
+
+
+            @if (@ViewBag.PagActualPU > 1)
+            {
+                <input type="button" class="btn btn-outline-primary" value="<" data-value="@ViewBag.PagActualPU" id="previousPageUP" />
+            }
+            @if (@ViewBag.PagActualPU != @ViewBag.totalPagPU && i != 0)
+            {
+                <input type="button" class="btn btn-outline-primary" value=">" data-value="@ViewBag.PagActualPU" id="nextPageUP" />
+
+            }
+
+        </div>
+
+        <label>Pagina Actual: <span id="pagActualPU">@ViewBag.PagActualPU</span></label>
+        <label>Total de paginas: <span id="totalPagPU">@ViewBag.totalPagPU</span></label>
+
+
+    </div>
+
+
+
+</div>
+
+
+

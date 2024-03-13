@@ -1,0 +1,355 @@
+﻿
+@model Medical_Record_Models.DTO.All_Personal_informationDTO
+@{
+    
+}
+
+
+
+
+@* <script src="/js/InformationModule.js"></script>
+ *@
+
+ @* 
+<script src="/js/InformationModule.js"></script> *@
+
+<div class="accordion " id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Información Personal
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body salud-bg-2">
+
+                <div class="card " @* style="background-color:#cbdad5;" *@>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="">Información Personal</h3>
+                        <div id="" class="buttons_page">
+                            <button id="edit_info_personal" class="btn btn-outline-warning">  <i id="icon_btn" class='bx bxs-edit bx-tada'></i> Editar </button>
+                            <button hidden id="cancelar_info_personal" class="btn btn-outline-danger">
+                                <i class='bx bxs-x-square bx-flashing bx-flip-vertical'></i>  Cancelar
+                            </button>
+                            <button hidden class="btn btn-outline-success" id="guardar_info_personal"> <i class='bx bxs-save bx-tada bx-flip-vertical'></i>  Guardar</button>
+                        </div>
+
+                    </div>
+                    <div class="user-info  ">
+
+                        <form id="form_personal_info " class=" rounded p-3 was-validated">
+
+                            <input hidden disabled id="id_persona" value="@Model.Id_Persona" />
+                            <!--PARTE DE ARRIBA-->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="nombre_paciente" class="form-control " pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,100}" disabled required
+                                               value="@Model.Nombre" title="El nombre  debe contener entre 1 y 100 caracteres alfabeticos.">
+                                        <label class="form-label salud-color" for="nombre">Nombre </label>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col">
+                                    <!-- APELLIDOS -->
+                                    <div class="form-outline">
+                                        <input type="text" id="apellidos" class="form-control " pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,100}" disabled
+                                               value="@Model.Apellidos" title="Los Apellidos deben contener entre 1 y 100 caracteres alfabeticos." />
+                                        <label class="form-label salud-color" for="apellidos">Apellidos</label>
+                                    </div>
+                                </div>
+                                <!-- Cedula -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="text" id="cedula" class="form-control  " pattern="[0-9]{1,25}"  disabled required
+                                               value="@Model.Cedula" title="La cédula debe contener entre 1 y 25 caracteres alfabeticos." />
+
+                                        <label class="form-label salud-color" for="cedula">Cedula</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <hr />
+
+
+                            <!--PARTE DE MEDIA-->
+                            <div class="row">
+
+                                <!-- PROFESION -->
+                                <div class="col">
+
+
+                                    <div class="form-outline">
+                                        <input type="text" id="profesion" class="form-control" pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,100}" disabled required
+                                               value="@Model.Profesion" title="La Profesión debe contener entre 1 y 100 caracteres alfabeticos." />
+                                        <label class="form-label salud-color" for="profesion">Profesión</label>
+
+                                    </div>
+                                </div>
+
+                                <!-- ESTADO CIVIL -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <select id="estado_civil" name="estado_civil" required disabled class="form-control  ">
+                                            
+                                            <option value="" disabled >Seleccione</option>
+                                            <option value="@Model.Estado_Civil">@Model.Estado_Civil</option>
+                                            <option value="Casado">Casado</option>
+                                            <option value="Unión Libre">Unión Libre</option>
+                                            <option value="Soltero">Soltero</option>
+                                            <option value="Divorciado">Divorciado</option>
+
+                                        </select>
+                                        <label class="form-label salud-color" for="estado_civil">Estado Civil</label>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- FECHA NACIMIENTO -->
+                                <div class="col">
+
+                                    <div class="form-group">
+                                        
+                                        @Html.TextBoxFor(model => model.Fecha_Nacimiento, "{0:yyyy-MM-dd}", new { @class = "form-control", @id = "date", @type="date", @disabled="disabled", @required = "required" })
+                                        @Html.LabelFor(model => model.Fecha_Nacimiento, "Fecha", new{@class="form-label salud-color"})
+                                      
+                                    </div>
+                                </div>
+
+                                <!-- SEXO -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <select id="sexo" name="rol" required disabled class="form-control  ">
+                                            <option value="" disabled >Seleccione</option>
+                                            <option value="@Model.Sexo" selected>@Model.Sexo</option>
+                                            <option value="Masculino">Masculino</option>
+                                            <option value="Femenino">Femenino</option>
+                                            <option value="Otro">Otro</option>
+
+                                        </select>
+                                        <label class="form-label salud-color" for="sexo">Sexo</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <hr />
+
+
+                            <!--PARTE DE MEDIA-->
+                            <div class="row">
+
+                                <!-- Condición -->
+                                <div class="col">
+
+
+                                    <div class="form-outline">
+                                        <input type="text" id="condicion" class="form-control " pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,50}" required disabled
+                                               value="@Model.Condicion_Rehabilitacion" title="La condición debe contener entre 1 y 50 caracteres alfabeticos." />
+                                        <label class="form-label salud-color" for="condicion">Condición de Rehabilitación</label>
+
+                                    </div>
+                                </div>
+
+                                <!-- FASE -->
+                                <div class="col-2">
+
+                                    <div class="form-outline">
+                                        <select id="fase" name="fase" required disabled class="form-control  ">
+                                            <option value="" disabled >Fase</option>
+                                            <option value="@Model.Fase" selected>@Model.Fase</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="2">3</option>
+
+                                        </select>
+                                        <label class="form-label salud-color" for="fase">Fase</label>
+                                    </div>
+
+                                </div>
+
+                                <!--NUMERO EXPEDIENTE-->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="text" id="numero_expediente" class="form-control" disabled required
+                                               pattern="[a-zA-Z0-9\s]{1,50}"
+                                               value="@Model.Numero_Expediente" title="El número de Expediente debe contener entre 1 y 100 caracteres alfabeticos y guiones." />
+                                        <label class="form-label salud-color">Numero de Expediente</label>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- Teléfono -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="tel" id="tel" class="form-control  " @* pattern="[0-9-]{8,15}" *@ required disabled
+                                               value="@Model.Telefono"
+                                               title="El número de teléfono debe contener entre 8 y 15 dígitos numéricos.">
+                                        <label class="form-label salud-color" for="tel">Teléfono</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <!-- Correo Electrónico -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="email" id="email" class="form-control " maxlength="100" disabled required
+                                               value="@Model.Email" />
+                                        <label class="form-label salud-color" for="email">Correo Electrónico</label>
+                                    </div>
+
+                                </div>
+                                <!--lugar de origen-->
+                                <div class="col">
+                                    <div class="form-outline">
+                                        @* <input type="text" id="origen" class="form-control " required /> *@
+                                        <textarea requierd disabled class="form-control" id="origen" rows="1" >@Model.Lugar_origen</textarea>
+
+                                        <label class="form-label salud-color" for="tel">Lugar de Origen</label>
+                                    </div>
+                                </div>
+                                <!--Direccion-->
+                                <div class="col">
+                                    <div class="form-outline">
+                                        @* <input type="text" id="origen" class="form-control " required /> *@
+                                        <textarea requierd disabled class="form-control" id="direccion" rows="1">@Model.Lugar_origen</textarea>
+
+                                        <label class="form-label salud-color" for="direccion">Direccion</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            @*   <div class="col  d-flex justify-content-center ">
+
+
+                            <button type="button" class="btn btn-danger" style="margin:4px;" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Cerrar</button>
+                            <input type="submit" id="btn_modal_edit_profile" name="" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                            </div> *@
+
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Información Familiar
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body salud-bg-2">
+                <div class="d-flex justify-content-between">
+                    <div class="card ">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="">Información Familiar</h3>
+                            <div id="" class="buttons_page">
+                                <button id="edit_info_familiar" class="btn btn-outline-warning">  <i id="icon_btn" class='bx bxs-edit bx-tada'></i> Editar </button>
+                                <button hidden id="cancelar_info_familiar" class="btn btn-outline-danger"> <i class='bx bxs-x-square bx-flashing bx-flip-vertical'></i>  Cancelar</button>
+                                <button hidden class="btn btn-outline-success" id="guardar_info_familiar"> <i class='bx bxs-save bx-tada bx-flip-vertical'></i>  Guardar</button>
+                            </div>
+
+
+                        </div>
+                        <div class="user-info  ">
+                            <form id="form_familiar_info " class=" rounded p-3  was-validated">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input disabled type="text" id="conyuge" class="form-control " pattern="[a-zA-Z\s\/\-]{1,100}" required
+                                                 value="@Model.Conyuge" title="El conyuge  debe contener entre 1 y 100 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="conyuge">Conyuge </label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input disabled type="text" id="hijo" class="form-control " pattern="[a-zA-Z\s\/\-]{1,100}" required
+                                                   value="@Model.Nombre_Hijo" title="El nombre del hijo debe contener entre 1 y 100 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="hijo">Nombre Hijo </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input disabled type="text" id="per_cargo" class="form-control " pattern="[a-zA-Z\s\/\-]{1,100}" required
+                                                   value="@Model.Persona_a_cargo" title="El nombre de la persona a cargo debe contener entre 1 y 100 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="per_cargo">Persona a Cargo</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Teléfono -->
+                                        <div class="form-outline">
+                                            <input disabled type="tel" id="tel_emergencia" class="form-control  "required
+                                                   value="@Model.Telefono" title="El número de teléfono debe contener entre 8 y 15 dígitos numéricos.">
+                                            <label class="form-label salud-color" for="tel">Teléfono de Emergencia</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input disabled type="text" id="contacto" class="form-control " pattern="[a-zA-Z\s\/\-]{1,100}" required
+                                                   value="@Model.Nombre_Contacto" title="El contacto  debe contener entre 1 y 100 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="contacto">Nombre del Contacto </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input disabled type="text" id="parentesco" class="form-control " pattern="[a-zA-Z\s\/\-]{1,100}" required
+                                                   value="@Model.Parentesco" title="El parentesco  debe contener entre 1 y 100 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="parentesco">Parentesto </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+@* 
+
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Accordion Item #3
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+    </div>
+    <hr /> *@
+</div>

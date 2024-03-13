@@ -1,0 +1,609 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dani\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Medical_Records_UNA.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Medical_Records_UNA.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\css\\Folder.css",
+      "PackagePath": "staticwebassets\\css\\Folder.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\CereCorazon.png",
+      "PackagePath": "staticwebassets\\img\\CereCorazon.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\Default-Profile.png",
+      "PackagePath": "staticwebassets\\img\\Default-Profile.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\Logo 1.png",
+      "PackagePath": "staticwebassets\\img\\Logo 1.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\Logo Azul.png",
+      "PackagePath": "staticwebassets\\img\\Logo Azul.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\Logo Rojo.png",
+      "PackagePath": "staticwebassets\\img\\Logo Rojo.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\LogoUNA.svg.png",
+      "PackagePath": "staticwebassets\\img\\LogoUNA.svg.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\Programa de Rehabilitacion.jpg",
+      "PackagePath": "staticwebassets\\img\\Programa de Rehabilitacion.jpg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\adulta mayor.svg",
+      "PackagePath": "staticwebassets\\img\\adulta mayor.svg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\adulto mayor.svg",
+      "PackagePath": "staticwebassets\\img\\adulto mayor.svg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\female_ img.png",
+      "PackagePath": "staticwebassets\\img\\female_ img.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\fondo azul.svg",
+      "PackagePath": "staticwebassets\\img\\fondo azul.svg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\fondo rosado.svg",
+      "PackagePath": "staticwebassets\\img\\fondo rosado.svg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\actividad-fisica.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\actividad-fisica.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\antecedentes.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\antecedentes.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\antecedentes2.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\antecedentes2.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\asistencia.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\asistencia.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\citas.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\citas.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\citas2.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\citas2.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\cuestionario.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\cuestionario.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\documentos.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\documentos.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\ejercicio.jpg",
+      "PackagePath": "staticwebassets\\img\\items_folder\\ejercicio.jpg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\folder.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\folder.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\info.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\info.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\items_folder\\medicamentos.png",
+      "PackagePath": "staticwebassets\\img\\items_folder\\medicamentos.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo2.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\men young.svg",
+      "PackagePath": "staticwebassets\\img\\men young.svg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\men_img.png",
+      "PackagePath": "staticwebassets\\img\\men_img.png"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\img\\mr.svg",
+      "PackagePath": "staticwebassets\\img\\mr.svg"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\Disease.js",
+      "PackagePath": "staticwebassets\\js\\Disease.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\Folder.js",
+      "PackagePath": "staticwebassets\\js\\Folder.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\HistoryModule.js",
+      "PackagePath": "staticwebassets\\js\\HistoryModule.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\InformationModule.js",
+      "PackagePath": "staticwebassets\\js\\InformationModule.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\Menu.js",
+      "PackagePath": "staticwebassets\\js\\Menu.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\Profile.js",
+      "PackagePath": "staticwebassets\\js\\Profile.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\Surgery.js",
+      "PackagePath": "staticwebassets\\js\\Surgery.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\User.js",
+      "PackagePath": "staticwebassets\\js\\User.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Carlos\\Proyectos_C#\\Medical_Records_UNA\\Medical_Records_UNA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Medical_Records_UNA.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Medical_Records_UNA.props",
+      "PackagePath": "build\\Medical_Records_UNA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Medical_Records_UNA.props",
+      "PackagePath": "buildMultiTargeting\\Medical_Records_UNA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Medical_Records_UNA.props",
+      "PackagePath": "buildTransitive\\Medical_Records_UNA.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

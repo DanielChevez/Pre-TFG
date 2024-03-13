@@ -1,0 +1,24 @@
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\bin\Debug\net6.0\Medical_Records_Utilities.deps.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\bin\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\bin\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.csproj.AssemblyReference.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.AssemblyInfoInputs.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.AssemblyInfo.cs
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.csproj.CoreCompileInputs.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\refint\Medical_Records_Utilities.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\ref\Medical_Records_Utilities.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\bin\Debug\net6.0\Medical_Records_Utilities.deps.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\bin\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\bin\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.csproj.AssemblyReference.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.AssemblyInfoInputs.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.AssemblyInfo.cs
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.csproj.CoreCompileInputs.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\refint\Medical_Records_Utilities.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Utilities\obj\Debug\net6.0\ref\Medical_Records_Utilities.dll

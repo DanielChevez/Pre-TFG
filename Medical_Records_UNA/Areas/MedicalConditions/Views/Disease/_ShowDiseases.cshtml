@@ -1,0 +1,54 @@
+﻿@using Medical_Records_Utilities.Extensions;
+@{
+    ViewData["Title"] = "Enfermedades";
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+}
+
+
+<div class="header_page">
+
+    <!-- TITULO DE LA PAGINA-->
+
+
+    <div>
+        <h3 class="m-1">Enfermedades</h3>
+        <select class="custom-select m-2" aria-label="Cantidad de registros a mostrar" id="tamanoPagina" name="tamanoPagina">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+      
+            <button type="button" class="btn btn-primary m-2 " id="create_disease">
+                <i class="fa-solid fa-user-plus"></i>
+                Agregar
+            </button>
+      
+    </div>
+
+  @*   <div class="search m-2">
+        <input id="buscar" type="text" placeholder="Buscar..."
+               class="form-control" aria-label="Buscar..."
+               value="@ViewBag.palabraBuscar" />
+        <span class="tooltip">Buscar</span>
+    </div>
+ *@
+    <div class="search m-2 rounded">
+        <input id="buscar" type="text" placeholder="Buscar..."
+               class="form-control" aria-label="Buscar..."
+               value="@ViewBag.palabraBuscar" />
+        <span class="input-group-text border-0" id="search-addon">
+            <i class='bx bx-search-alt bx-tada'></i>
+        </span>
+        @* <span class="tooltip"><i class="fas fa-search"></i>Buscar</span> *@
+    </div>
+
+</div>
+
+<div class="overflow-y-scroll  table_render " id="diseaseTable">
+
+    <partial name="_TableDiseases" />
+</div>

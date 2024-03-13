@@ -1,0 +1,90 @@
+﻿@using Medical_Record_Models.DTO;
+@using Medical_Records_Utilities.Extensions;
+
+@{
+    int i = 0;
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+
+    List<DiseaseDTO> diseases = Context.Session.GetObject<List<DiseaseDTO>>("DiseasesLst");
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+    if (diseases == null)
+    {
+        diseases = new List<DiseaseDTO>();
+
+    }
+}
+
+
+
+<div class="table_custom ">
+
+    <table class="table  table-hover table_scroll" style="text-align:center;">
+        <thead>
+            <tr>
+                <th scope="col" class="">#</th>
+                <th scope="col" class="">Nombre</th>
+                <th scope="col" class="">Tipo</th>
+                <th scope="col" class="">Descripcion</th>
+                <th scope="col" class="">Nivel de Atención</th>
+                <th scope="col" class="">Recomendación</th>
+                
+                <th scope="col" class="">Acciones</th>
+            </tr>
+        </thead>
+        <tbody style="align-items:center;">
+            @if (diseases != null && diseases.Count > 0)
+            {
+
+                foreach (var d in diseases)
+                {
+                    i++;
+
+                    <tr>
+                        <td>@d.Id_Enfermedad</td>
+                        <td>@d.Nombre</td>
+                        <td>@d.Tipo</td>
+                        <td>@d.Descripcion</td>
+                        <td>@d.Estado</td>
+                        <td>@d.Recomendacion</td>
+                        <td>
+                            <button id="btn_edit_disease" type="button"
+                                    class="btn btn-warning" data-id="@d.Id_Enfermedad">
+                                <i class="fa-solid fa-pen-to-square" ></i> Editar
+                            </button>
+                            <button data-id="@d.Id_Enfermedad" type="button" id="delete_disease" class="btn btn-danger"> <i class="fa-solid fa-trash-can"></i> Eliminar</button>
+
+                        </td>
+
+                    </tr>
+                }
+            }
+            
+
+        </tbody>
+
+    </table>
+
+</div>
+
+
+
+<div class="pagination">
+
+    <div class="buttons_page">
+
+        @if (@ViewBag.PagActual > 1)
+        {
+            <input type="button" class="btn btn-outline-secondary" value="<" data-value="@ViewBag.PagActual" id="previousPage" />
+        }
+        @if (@ViewBag.PagActual != @ViewBag.totalPag && i != 0)
+        {
+            <input type="button" class="btn btn-outline-secondary" value=">" data-value="@ViewBag.PagActual" id="nextPage" />
+
+        }
+    </div>
+    <label>Pagina Actual: <span id="pagActual">@ViewBag.PagActual</span></label>
+    <label>Total de paginas: <span id="totalPag">@ViewBag.totalPag</span></label>
+</div>

@@ -1,0 +1,136 @@
+﻿
+
+<div class="modal" id="add_disease_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content salud-bg ">
+            <div class="modal-header">
+                <h5 class="modal-title salud-color fs-5" id="modaltitleDisease">Información del Perfil</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body salud-bg container">
+                <div class="cont">
+                    <div class="card">
+                       
+                        <div class="user-info">
+
+                            
+                            <form id="form_add_disease" class=" rounded p-3 ">
+
+                                <input hidden disabled type="text" id="id_disease" value="0" class="form-control " />
+                            
+                                <div class="form-group">
+                                    <input required type="text" class="form-control" id="nombre" name="nombre" pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,100}">
+                                    <label class="form-label salud-color" for="nombre_enfermedad">Nombre</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" type="text" required id="tipo" pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,200}" />
+                                    <label class="form-label salud-color" for="tipo">Tipo de Enfermedad</label>
+                                </div>
+                                <div class="form-group">
+
+                                    <textarea class="form-control" id="descripcion_enfermedad" name="descripcion" rows="1"></textarea>
+                                    <label class="form-label salud-color" for="descripcion_enfermedad">Descripción</label>
+                                </div>
+                                <div class="form-group">
+                                    <select id="estado" name="estado" required class="form-control  ">
+
+                                        <option value="" selected disabled>Seleccione</option>
+                                        
+                                        <option value="I">I</option>
+                                        <option value="II">II</option>
+                                        <option value="III">III</option>
+                                        
+
+                                    </select>
+                                    @* <input type="text" class="form-control" id="estado_enfermedad" name="estado" required> *@
+                                    <label class="form-label salud-color" for="estado_enfermedad">Nivel de Atencion</label>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="recomendacion_enfermedad" name="recomendacion" rows="1"></textarea>
+                                    <label class="form-label salud-color" for="recomendacion">Recomendación</label>
+                                </div>
+                             
+
+
+                                <hr />
+                                <div class="col  d-flex justify-content-center ">
+
+                                    @* <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal">Cerrar</button>
+                                    <input type="submit" class="btn btn-success" style="margin:4px;" id="btn_add_disease" name="" value="Guardar" /> *@
+
+                                    <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal">Cerrar</button>
+                                    <input type="submit" id="btn_modal_disease" name="" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+@* 
+
+<div class="modal" id="add_disease_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal  modal-dialog-centered ">
+        <div class="modal-content salud-bg ">
+            <div class="modal-header">
+                <h5 class="modal-title salud-color fs-5" id="modaltitleDisease">Agregar Enfermedad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body salud-bg container">
+
+                <div class="card " @* style="background-color:#cbdad5;" 
+
+                    <div class="user-info">
+                        <input hidden disabled type="text" id="id_paciente" class="form-control " />
+
+                        <form id="form_add_personal_info " class=" rounded p-3 ">
+
+                       
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                <label class="form-label salud-color" for="nombre_enfermedad">Nombre</label>
+                            </div>
+                            <div class="form-group">
+
+                                <textarea class="form-control" id="descripcion_enfermedad" name="descripcion" rows="1"></textarea>
+                                <label class="form-label salud-color" for="descripcion_enfermedad">Descripción</label>
+                            </div>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id="estado_enfermedad" name="estado" required>
+                                <label class="form-label salud-color" for="estado_enfermedad">Estado</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="recomendacion_enfermedad" name="recomendacion" rows="1"></textarea>
+                                <label class="form-label salud-color" for="recomendacion">Recomendación</label>
+                            </div>
+                       
+
+                            <div class="col  d-flex justify-content-center ">
+
+                                <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal">Cerrar</button>
+                                <button class="btn btn-outline-success" id="btn_add_disease"> <i class='bx bxs-save bx-tada bx-flip-vertical'></i>  Guardar</button>
+
+
+                            </div>
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+ *@

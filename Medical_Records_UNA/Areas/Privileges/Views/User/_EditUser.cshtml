@@ -1,0 +1,132 @@
+﻿<!-- Modal edit User-->
+
+<div class="modal" id="edit_user_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-fullscreen ">
+        <div class="modal-content salud-bg ">
+            <div class="modal-header">
+                <h5 class="modal-title salud-color fs-5" id="modaltitleUsuario">Información del Usuario</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body salud-bg">
+                <div class="cont">
+                    <div class="card">
+                        <img src="/img/men_img.png" alt="Foto de perfil" class="profile-pic">
+                        <div class="user-info">
+
+                            <form class=" rounded " id="form_edit_user">
+ 
+                                <div>
+
+
+
+                                    <div class="row  ">
+                                        <div class="col">
+                                            <!-- Nombre de Usuario -->
+                                            <div class="form-outline">
+                                                <input type="text" id="edit_nombreUsuario" class="form-control " pattern="[a-zA-Z0-9_]{1,70}" required
+                                                       title="El nombre de usuario debe contener entre 1 y 70 caracteres alfanuméricos (puedes usar guiones bajos '_').">
+                                                <label class="form-label salud-color" for="nombreUsuario">Nombre de Usuario</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- Contraseña -->
+                                            <div class="form-outline">
+                                                <input type="password" id="edit_contraseña" class="form-control " pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d$!%*?&]{1,100}$"
+                                                       title="La contraseña debe contener al menos 8 caracteres, incluyendo al menos una mayúscula, una minúscula y un número.">
+                                                <label class="form-label salud-color" for="contraseña">Contraseña</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- Nombre -->
+                                            <div class="form-outline">
+                                                <input type="text" id="edit_nombre" class="form-control  " pattern="[a-zA-Z\s]{1,100}" required
+                                                       title="El nombre debe contener entre 1 y 100 caracteres alfabéticos (puedes usar espacios).">
+                                                <label class="form-label salud-color" for="nombre">Nombre</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- Cedula -->
+                                            <div class="form-outline">
+                                                <input type="text" id="edit_cedula" class="form-control  " pattern="[0-9]{1,20}" required
+                                                       title="La cédula debe contener entre 1 y 20 dígitos numéricos.">
+                                                <label class="form-label salud-color" for="cedula">Cedula</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row ">
+                                       
+                                        <div class="col">
+                                            <!-- Correo Electrónico -->
+                                            <div class="form-outline">
+                                                <input type="email" id="edit_email" class="form-control " maxlength="100" required>
+                                                <label class="form-label salud-color" for="email">Correo Electrónico</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- Tipo de Usuario -->
+                                            <div class="form-outline">
+                                                <select id="edit_rol" name="rol" required class="form-control  ">
+                                                    <option value="" disabled selected>Seleccione</option>
+                                                    <option value="Profesor">Coordinador</option>
+                                                    <option value="Profesor">Profesor</option>
+                                                    <option value="Asistente">Asistente</option>
+                                                    <option value="Paciente">Paciente</option>
+                                                </select>
+                                                <label class="form-label salud-color" for="rol">Tipo de Usuario</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- Activar Usuario -->
+                                            <div class="form-outline ">
+                                                <div class="form-check form-switch " style="display:grid; justify-content:center;">
+
+                                                    <input class="form-check-input" type="checkbox" id="edit_activo" />
+
+                                                </div>
+                                                <label class="form-check-label salud-color" for="activo">Activar Usuario</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr />
+                         
+                                    <div class="row  ">
+                                        <div class="col">
+                                            <!-- Teléfono -->
+                                            <div class="form-outline">
+                                                <input type="tel" id="edit_tel" class="form-control  " pattern="[0-9]{8,15}" required
+                                                       title="El número de teléfono debe contener entre 8 y 15 dígitos numéricos.">
+                                                <label class="form-label salud-color" for="tel">Teléfono</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- WhatsApp -->
+                                            <div class="form-outline">
+                                                <input type="tel" id="edit_whatsapp" class="form-control  " pattern="[0-9]{8,15}"
+                                                       title="El número de WhatsApp debe contener entre 8 y 15 dígitos numéricos." placeholder="Opcional">
+                                                <label class="form-label salud-color" for="whatsapp">WhatsApp</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                                <div class="col mt-2 d-flex justify-content-center mb-2">
+                                    <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal">Cerrar</button>
+                                    <input type="submit" id="btn_modal_edit_user" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

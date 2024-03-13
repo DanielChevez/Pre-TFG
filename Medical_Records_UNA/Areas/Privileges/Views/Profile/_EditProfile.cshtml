@@ -1,0 +1,179 @@
+﻿<!-- Modal add User-->
+@using Medical_Record_Models.DTO;
+@using Medical_Records_Utilities.Extensions;
+@using Medical_Record_Models.ModelsGeneric;
+@{
+
+    ViewData["Title"] = "Editar Perfil";
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    // List<SelectListItem> lstUser = (List<SelectListItem>)ViewBag.lstUser;
+    List<SelectListItem> lstUser = Context.Session.GetObject<List<SelectListItem>>("lstUser");
+
+    // List<UsuarioPerfil> Usuarios = (List<UsuarioPerfil>)ViewBag.lstUsersProfile;
+
+
+
+
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+
+}
+<div class="modal" id="edit_profile_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen ">
+        <div class="modal-content salud-bg ">
+            <div class="modal-header">
+                <h5 class="modal-title salud-color fs-5" id="modaltitlePerfil">Editar Perfil</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="">
+
+
+                <div class="modal-body salud-bg  page_render scroll">
+                    <div class="cont ">
+
+                        <div class="card">
+
+                            <h3 class="mb-4">Editar Perfil</h3>
+
+                            <img src="/img/Default-Profile.png" alt="Foto de perfil" class="profile-pic">
+                            <div class="user-info">
+
+
+                                <form id="form_edit_profile" class=" rounded p-3">
+                                    @* <input hidden disabled id="id_perfil_edit" value="" /> *@
+                                    <input hidden disabled id="nombre_perfil_edit" value="" />
+                                    <div class="row">
+                                        <div class="col">
+                                            <!-- Nombre de Perfil -->
+                                            <div class="form-outline">
+                                                <input type="text" id="edit_nombre_perfil" class="form-control " pattern="[a-zA-Z]{1,25}" required
+                                                       title="El nombre debe contener entre 1 y 25 caracteres alfabeticos.">
+                                                <label class="form-label salud-color" for="nombre_Perfil">Nombre del Perfil</label>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col">
+                                            <!-- Descripcion de Perfil -->
+                                            <div class="form-outline">
+                                                <input type="text" id="edit_descripcion_perfil" class="form-control " pattern="[a-zA-Z\s]{1,100}" required
+                                                       title="La Descripcion  debe contener entre 1 y 100 caracteres alfabeticos.">
+                                                <label class="form-label salud-color" for="descripcion_perfil">Descripción del Perfil</label>
+                                            </div>
+
+                                        </div>
+
+
+
+
+                                        <div class="col">
+                                            <div class="form-outline ">
+                                                <div class="form-check form-switch " style="display:grid; justify-content:center;">
+
+                                                    <input class="form-check-input" type="checkbox" id="edit_activar_perfil" />
+
+                                                </div>
+                                                <label class="form-check-label salud-color" for="activo">Activar Perfil</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col  d-flex justify-content-center ">
+                                        <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal">Cerrar</button>
+                                        <input type="submit" id="btn_modal_edit_profile" name="" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                                    </div>
+
+                                </form>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    @Html.Partial("_UsersProfile")
+
+
+
+                </div>
+
+               @*  <div class="cont">
+                    <div class="card">
+                        <img src="/img/Default-Profile.png" alt="Foto de perfil" class="profile-pic">
+                        <div class="user-info">
+
+                            <form id="form_edit_profile" class=" rounded p-3">
+                                <input hidden disabled id="id_perfil_edit" value="" />
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Nombre de Perfil -->
+                                        <div class="form-outline">
+                                            <input type="text" id="edit_nombre_perfil" class="form-control " pattern="[a-zA-Z]{1,25}" required
+                                                   title="El nombre de usuario debe contener entre 1 y 25 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="nombre_Perfil">Nombre del Perfil</label>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="col">
+                                        <!-- Descripcion de Perfil -->
+                                        <div class="form-outline">
+                                            <input type="text" id="edit_descripcion_perfil" class="form-control " pattern="[a-zA-Z\s]{1,100}" required
+                                                   title="El nombre de usuario debe contener entre 1 y 100 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="descripcion_perfil">Descripción del Perfil</label>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                    <div class="col">
+                                        <div class="form-outline ">
+                                            <div class="form-check form-switch " style="display:grid; justify-content:center;">
+
+                                                <input class="form-check-input" type="checkbox" id="edit_activar_perfil" />
+
+                                            </div>
+                                            <label class="form-check-label salud-color" for="activo">Activar Perfil</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col mt-4 d-flex justify-content-center mb-2 p-3">
+                                    <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal">Cerrar</button>
+                                    <input type="submit" id="btn_modal_edit_profile" name="" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                                </div>
+
+                            </form>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+ *@
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+

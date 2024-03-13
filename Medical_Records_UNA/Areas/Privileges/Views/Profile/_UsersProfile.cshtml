@@ -1,0 +1,108 @@
+﻿@model List<Medical_Record_Models.ModelsGeneric.UsuarioPerfil>
+@using Medical_Record_Models.DTO;
+@using Medical_Records_Utilities.Extensions;
+@{
+    byte i = 0;
+
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+
+}
+
+
+
+<div class="table_custom ">
+
+    <table id="users" class="table table-hover">
+        <thead>
+            <tr>
+          
+                <th class="col">Usuario</th>
+                <th class="col">Nombre Usuario</th>
+                <th class="col">Acciones</th>
+            </tr>
+
+        </thead>
+        <tbody id="contentTable">
+            @if (Model != null && Model.Count > 0)
+            {
+                @foreach (var usuario in Model)
+                {
+                    i++;
+                    <tr>
+
+                        <td>
+                            @usuario.Nombre
+                        </td>
+                        <td>@usuario.NombreUsuario</td>
+                        <td>
+                            @* <a href="/Users/User/Edit?Username= @usuario.NombreUsuario" type="button" class="btn btn-warning">Editar</a> *@
+                            
+                            <input id="eliminarUsuarioPerfil" data-id="@usuario.NombreUsuario" type="button" value="Eliminar" class="btn btn-outline-danger"  />
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">No existe registros actualmente</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+    <div class="pagination">
+
+        <div class="buttons_page">
+
+          @*   <input type="button" class="btn btn-outline-secondary" value="<" data-value="@ViewBag.PagActualUP" id="previousPage" />
+            <input type="button" class="btn btn-outline-secondary" value=">" data-value="@ViewBag.PagActualUP" id="nextPage" /> *@
+            @if (@ViewBag.PagActualUP > 1)
+            {
+                <input type="button" class="btn btn-outline-secondary" value="<" data-value="@ViewBag.PagActualUP" id="previousPageUP" />
+            }
+            @if (@ViewBag.PagActualUP != @ViewBag.totalPagUP && i != 0)
+            {
+                <input type="button" class="btn btn-outline-secondary" value=">" data-value="@ViewBag.PagActualUP" id="nextPageUP" />
+
+            }
+        </div>
+        <label>Pagina Actual: <span id="pagActualUP">@ViewBag.PagActualUP</span></label>
+        <label>Total de paginas: <span id="totalPagUP">@ViewBag.totalPagUP</span></label>
+    </div>
+</div>
+
+
+@* 
+
+<div class="pagination">
+  
+
+    <div class="buttons_page">
+
+
+
+  
+
+        @if (@ViewBag.PagActual > 1)
+        {
+            <input type="button" class="btn btn-outline-primary" value="<" data-value="@ViewBag.PagActual" name="previousPage" />
+        }
+        @if (@ViewBag.PagActual != @ViewBag.totalPag.Value && i != 0)
+        {
+            <input type="button" class="btn btn-outline-primary" value=">" data-value="@ViewBag.PagActual" name="nextPage" />
+
+        }
+    </div>
+    <div class="col">
+        <label>Pagina Actual: <span id="pagActualUP">@ViewBag.PagActualUP</span></label>
+        <label>Total de paginas: <span id="totalPagUP">@ViewBag.totalPagUP</span></label>
+    </div> *@
+
+ 

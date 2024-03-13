@@ -1,0 +1,69 @@
+﻿@using Medical_Record_Models.DTO;
+@using Medical_Records_Utilities.Extensions;
+@{
+    ViewData["Title"] = "Expedientes";
+    int i = 0;
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    List<FolderDTO> folders = Context.Session.GetObject<List<FolderDTO>>("FolderList");
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+
+}
+
+
+<div class="folder_view ">
+    @if (folders != null && folders.Count > 0)
+    {
+        
+        foreach (var p in folders)
+        {
+            i++;
+            <partial name="_FolderView" model="@p"></partial>
+          
+        }
+    }
+
+  
+</div>
+
+
+
+
+<div class="pagination">
+
+    <div class="buttons_page">
+
+        @if (@ViewBag.PagActual > 1)
+        {
+            <input type="button" class="btn btn-outline-secondary" value="<" data-value="@ViewBag.PagActual" id="previousPage" />
+        }
+        @if (@ViewBag.PagActual != @ViewBag.totalPag && i != 0)
+        {
+            <input type="button" class="btn btn-outline-secondary" value=">" data-value="@ViewBag.PagActual" id="nextPage" />
+
+        }
+    </div>
+    <label>Pagina Actual: <span id="pagActual">@ViewBag.PagActual</span></label>
+    <label>Total de paginas: <span id="totalPag">@ViewBag.totalPag</span></label>
+</div>
+
+@* 
+<div class="pagination">
+
+    <div class="buttons_page">
+
+        @if (@ViewBag.PagActual > 1)
+        {
+            <input type="button" class="btn btn-outline-secondary" value="<" data-value="@ViewBag.PagActual" id="previousPage" />
+        }
+        @if (@ViewBag.PagActual != @ViewBag.totalPag && i != 0)
+        {
+            <input type="button" class="btn btn-outline-secondary" value=">" data-value="@ViewBag.PagActual" id="nextPage" />
+
+        }
+    </div>
+    <label>Pagina Actual: <span id="pagActual">@ViewBag.PagActual</span></label>
+    <label>Total de paginas: <span id="totalPag">@ViewBag.totalPag</span></label>
+</div> *@

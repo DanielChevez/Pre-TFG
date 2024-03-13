@@ -1,0 +1,129 @@
+﻿<!-- Modal add User-->
+
+<div class="modal" id="add_profile_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content salud-bg ">
+            <div class="modal-header">
+                <h5 class="modal-title salud-color fs-5" id="modaltitlePerfil">Información del Perfil</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body salud-bg container">
+                <div class="cont">
+                    <div class="card">
+                        <img src="/img/Default-Profile.png" alt="Foto de perfil" class="profile-pic">
+                        <div class="user-info">
+
+                            <form id="form_add_profile" class=" rounded p-3">
+ 
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Nombre de Perfil -->
+                                        <div class="form-outline">
+                                            <input type="text" id="nombre_perfil" class="form-control " pattern="[a-zA-Z]{1,25}" required
+                                                   title="El nombre de usuario debe contener entre 1 y 25 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="nombre_Perfil">Nombre del Perfil</label>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+
+                                <hr />
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Descripcion de Perfil -->
+                                        <div class="form-outline">
+                                            <input type="text" id="descripcion_perfil" class="form-control " pattern="[a-zA-Z\s]{1,100}" required
+                                                   title="El nombre de usuario debe contener entre 1 y 100 caracteres alfabeticos.">
+                                            <label class="form-label salud-color" for="descripcion_perfil">Descripción del Perfil</label>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <hr />
+                                <div class="row">
+                                   <div class="col">
+                                        <div class="form-outline ">
+                                            <div class="form-check form-switch " style="display:grid; justify-content:center;">
+
+                                                <input  class="form-check-input" type="checkbox" id="activar_perfil" />
+
+                                            </div>
+                                            <label class="form-check-label salud-color" for="activo">Activar Perfil</label>
+                                        </div>
+                                   </div>
+
+                                </div>
+                                <div class="col mt-4 d-flex justify-content-center mb-2 p-3">
+                                    <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal">Cerrar</button>
+                                    <input type="submit" id="btn_modal_profile" name="" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                                </div>
+
+                            </form>
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<style>
+
+    .cont {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-height: 95%;
+        /*min-height: 100vh;*/
+        margin: 0;
+        /*background-color: #f0f0f0;*/
+    }
+
+    .card {
+        width: 95%;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 15px;
+    }
+
+    .user-info h2 {
+        margin-top: 0;
+        padding: 5px;
+        color: #333333;
+        box-shadow: 0px 0px 20px #00ffff;
+        border-radius: 5px;
+    }
+
+    .user-info p {
+        margin: 8px 0;
+        font-size: 14px;
+    }
+
+    .user-info span {
+        font-weight: bold;
+    }
+    /*
+                        }
+                        */
+    .name_user {
+    }
+</style>

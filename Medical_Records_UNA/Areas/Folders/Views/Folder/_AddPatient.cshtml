@@ -1,0 +1,238 @@
+﻿<!-- Modal add User-->
+
+<style>
+
+</style>
+
+<div class="modal" id="add_patient_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl  modal-dialog-centered ">
+        <div class="modal-content salud-bg ">
+            <div class="modal-header">
+                <h5 class="modal-title salud-color fs-5" id="modaltitleUsuario">Información del Paciente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body salud-bg container">
+
+                <div class="card " @* style="background-color:#cbdad5;" *@>
+                    
+                    <div class="user-info">
+                        <input hidden disabled type="text" id="id_paciente" class="form-control "  />
+
+                        <form id="form_add_personal_info " class=" rounded p-3 was-validated">
+
+                            @* <input hidden  id="id_perfil_edit" value="@Model.Id_Paciente" /> *@
+                            <!--PARTE DE ARRIBA-->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="nombre" class="form-control " pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,100}" required
+                                               title="El nombre  debe contener entre 1 y 100 caracteres alfabeticos.">
+                                        <label class="form-label salud-color" for="nombre">Nombre </label>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col">
+                                    <!-- APELLIDOS -->
+                                    <div class="form-outline">
+                                        <input type="text" id="apellidos" class="form-control " pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,100}"
+                                               title="Los Apellidos deben contener entre 1 y 100 caracteres alfabeticos." />
+                                        <label class="form-label salud-color" for="apellidos">Apellidos</label>
+                                    </div>
+                                </div>
+                                <!-- Cedula -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="text" id="cedula" class="form-control  " pattern="[0-9]{1,25}" required
+                                               title="La cédula debe contener entre 1 y 25 caracteres alfabeticos." />
+
+                                        <label class="form-label salud-color" for="cedula">Cedula</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <hr />
+
+
+                            <!--PARTE DE MEDIA-->
+                            <div class="row">
+
+                                <!-- PROFESION -->
+                                <div class="col">
+
+
+                                    <div class="form-outline">
+                                        <input type="text" id="profesion" class="form-control" pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,100}" required
+                                               title="La Profesión debe contener entre 1 y 100 caracteres alfabeticos." />
+                                        <label class="form-label salud-color" for="profesion">Profesión</label>
+
+                                    </div>
+                                </div>
+
+                                <!-- ESTADO CIVIL -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <select id="estado_civil" name="estado_civil" required class="form-control  ">
+
+                                            <option value="">Seleccione</option>
+
+                                            <option value="Casado">Casado</option>
+                                            <option value="Unión Libre">Unión Libre</option>
+                                            <option value="Soltero">Soltero</option>
+                                            <option value="Divorciado">Divorciado</option>
+
+                                        </select>
+                                        <label class="form-label salud-color" for="estado_civil">Estado Civil</label>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- FECHA NACIMIENTO -->
+                                <div class="col">
+
+                                    <div class="form-group">
+
+                                        <input id="date" class="form-control" type="date" required />
+                                        <label class="form-label salud-color"> Fecha Nacimiento</label>
+
+                                    </div>
+                                </div>
+
+                                <!-- SEXO -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <select id="sexo" name="rol" required class="form-control  ">
+                                            <option value="">Seleccione</option>
+
+                                            <option value="Masculino">Masculino</option>
+                                            <option value="Femenino">Femenino</option>
+                                            <option value="Otro">Otro</option>
+
+                                        </select>
+                                        <label class="form-label salud-color" for="sexo">Sexo</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <hr />
+
+
+                            <!--PARTE DE MEDIA-->
+                            <div class="row">
+
+                                <!-- Condición -->
+                                <div class="col">
+
+
+                                    <div class="form-outline">
+                                        <input type="text" id="condicion" class="form-control " pattern="[áÁéÉíÍóÓúÚa-zA-Z\s]{1,50}" required
+                                               title="La condición debe contener entre 1 y 50 caracteres alfabeticos." />
+                                        <label class="form-label salud-color" for="condicion">Condición de Rehabilitación</label>
+
+                                    </div>
+                                </div>
+
+                                <!-- FASE -->
+                                <div class="col-2">
+
+                                    <div class="form-outline">
+                                        <select id="fase" name="fase" required class="form-control  ">
+                                            <option value="">Fase</option>
+
+                                            <option value="Fase 1">Fase 1</option>
+                                            <option value="Fase 2">Fase 2</option>
+                                            <option value="Fase 2">Fase 3</option>
+
+                                        </select>
+                                        <label class="form-label salud-color" for="fase">Fase</label>
+                                    </div>
+
+                                </div>
+
+                                <!--NUMERO EXPEDIENTE-->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="text" id="numero_expediente" class="form-control" required
+                                               pattern="[a-zA-Z0-9\s]{1,50}"
+                                               title="El número de Expediente debe contener entre 1 y 100 caracteres alfabeticos y guiones." />
+                                        <label class="form-label salud-color">Numero de Expediente</label>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- Teléfono -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="tel" id="tel" class="form-control  " @* pattern="[0-9-]{8,15}" *@ required
+                                               title="El número de teléfono debe contener entre 8 y 15 dígitos numéricos.">
+                                        <label class="form-label salud-color" for="tel">Teléfono</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <!-- Correo Electrónico -->
+                                <div class="col">
+
+                                    <div class="form-outline">
+                                        <input type="email" id="email" class="form-control " maxlength="100" required />
+                                        <label class="form-label salud-color" for="email">Correo Electrónico</label>
+                                    </div>
+
+                                </div>
+                                <!--lugar de origen-->
+                                <div class="col">
+                                    <div class="form-outline">
+
+                                        <textarea  class="form-control" id="origen" rows="1"></textarea>
+
+                                        <label class="form-label salud-color" for="tel">Lugar de Origen</label>
+                                    </div>
+                                </div>
+                                <!--Direccion-->
+                                <div class="col">
+                                    <div class="form-outline">
+
+                                        <textarea  class="form-control" id="direccion" rows="1"></textarea>
+
+                                        <label class="form-label salud-color" for="direccion">Direccion</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col  d-flex justify-content-center ">
+
+                                <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-dismiss="modal"><i class='bx bx-x-circle'></i> Cancelar</button>
+                                <button class="btn btn-outline-success" id="add_info_personal"> <i class='bx bxs-save bx-tada bx-flip-vertical'></i>  Guardar</button>
+                                @* <button type="button" class="btn btn-danger" style="margin:4px;" data-bs-toggle="collapse" data-bs-target="#exampleModalLabel" aria-expanded="true" aria-controls="exampleModalLabel">Cerrar</button> *@
+                               @*  <input type="submit" id="btn_modal_add_patient" name="" class="btn btn-success p-2" style="margin:4px;" value="Guardar" /> *@
+
+                            </div>
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

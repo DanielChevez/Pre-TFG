@@ -1,0 +1,38 @@
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.deps.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.runtimeconfig.json
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Models.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Models.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.csproj.AssemblyReference.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.AssemblyInfoInputs.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.AssemblyInfo.cs
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.csproj.CoreCompileInputs.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.csproj.CopyComplete
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\refint\Medical_Record_Data.dll
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.pdb
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.genruntimeconfig.cache
+D:\Carlos\Universidad\2023\SEGUNDO SEMESTRE\PPS\Project\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\ref\Medical_Record_Data.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.deps.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.runtimeconfig.json
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Data.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Records_Utilities.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Models.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Records_Utilities.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\bin\Debug\net6.0\Medical_Record_Models.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.csproj.AssemblyReference.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.AssemblyInfoInputs.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.AssemblyInfo.cs
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.csproj.CoreCompileInputs.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.csproj.CopyComplete
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\refint\Medical_Record_Data.dll
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.pdb
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\Medical_Record_Data.genruntimeconfig.cache
+D:\Carlos\Proyectos_C#\Medical_Records_UNA\Medical_Records_Data\obj\Debug\net6.0\ref\Medical_Record_Data.dll

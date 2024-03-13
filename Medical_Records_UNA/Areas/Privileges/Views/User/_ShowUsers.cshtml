@@ -1,0 +1,54 @@
+﻿@using Medical_Records_Utilities.Extensions;
+
+
+
+@{
+    ViewData["Title"] = "Usuarios";
+    //List<UsuarioViewModel> lstUsuarios = (List<UsuarioViewModel>)ViewBag.Usuarios;
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+}
+
+<div class="header_page">
+
+    <!-- TITULO DE LA PAGINA-->
+
+
+    <div>
+        <h3 class="m-1">Usuarios</h3>
+        <select class="custom-select m-2" aria-label="Cantidad de registros a mostrar" id="tamanoPagina" name="tamanoPagina">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+
+        @if (Actions.Contains(4))
+        {
+            <button type="button" class="btn btn-primary m-2 " id="create_User">
+                <i class="fa-solid fa-user-plus"></i>
+                Agregar
+            </button>
+        }
+    </div>
+
+    <div class="search m-2">
+        <input id="buscar" type="text" placeholder="Buscar..."
+               class="form-control" aria-label="Buscar..."
+               value="@ViewBag.palabraBuscar" />
+        <span class="tooltip">Buscar</span>
+    </div>
+
+
+</div>
+
+
+
+<div class="overflow-y-scroll  table_render " id="userTable">
+    <partial name="_TableUsers" />
+</div>
+@Html.Partial("_AddUser")
+@Html.Partial("_Information")
+@*@IHtmlHelper.Partial("_AddUser","","")*@

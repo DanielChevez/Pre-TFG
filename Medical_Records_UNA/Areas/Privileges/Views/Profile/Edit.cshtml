@@ -1,0 +1,417 @@
+﻿@* @model Medical_Record_Models.DTO.ProfileDTO *@
+@using Medical_Record_Models.ModelsGeneric;
+@using Medical_Records_Utilities.Extensions;
+@using Medical_Record_Models.DTO;
+@using Medical_Record_Models.ViewModels;
+@{
+    ViewData["Title"] = "Editar Perfil";
+    List<int> Actions = Context.Session.GetObject<List<int>>("ActionsOfUser");
+    List<SelectListItem> lstUser = (List<SelectListItem>)ViewBag.lstUser;
+    List<UsuarioPerfil> Usuarios = (List<UsuarioPerfil>)ViewBag.lstUsersProfile;
+
+    List<ArbolPrivilegiosViewModel> arbol = Context.Session.GetObject<List<ArbolPrivilegiosViewModel>>("Arbol");
+
+    ProfileDTO profile = new();
+    profile = Context.Session.GetObject<ProfileDTO>("editProfile");
+
+
+    if (Actions == null)
+    {
+        Actions = new List<int>();
+    }
+}
+
+<div class="page_render  ">
+    <div class="cont ">
+
+        <div class="card">
+
+            <h3 class="">Editar Perfil</h3>
+
+            <img src="/img/Default-Profile.png" alt="Foto de perfil" class="profile-pic">
+            <div class="user-info">
+
+
+
+                <form id="form_edit_profile" class=" rounded p-3">
+
+                    <input hidden disabled id="id_perfil_edit" value="@profile.IdPerfil" />
+
+                    <div class="row">
+                        <div class="col">
+                            <!-- Nombre de Perfil -->
+                            <div class="form-outline">
+                                <input type="text" id="edit_nombre_perfil" class="form-control " pattern="[a-zA-Z]{1,25}" required
+                                       value="@profile.Nombre" title="El nombre debe contener entre 1 y 25 caracteres alfabeticos.">
+                                <label class="form-label salud-color" for="nombre_Perfil">Nombre del Perfil</label>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col">
+                            <!-- Descripcion de Perfil -->
+                            <div class="form-outline">
+                                <input type="text" id="edit_descripcion_perfil" class="form-control " pattern="[a-zA-Z\s]{1,100}" required
+                                       value="@profile.Descripcion" title="La Descripcion  debe contener entre 1 y 100 caracteres alfabeticos.">
+                                <label class="form-label salud-color" for="descripcion_perfil">Descripción del Perfil</label>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="col">
+                            <div class="form-outline ">
+                                <div class="form-check form-switch " style="display:grid; justify-content:center;">
+
+                                    <input class="form-check-input" type="checkbox" id="edit_activar_perfil" checked="@profile.Activo" />
+
+                                </div>
+                                <label class="form-check-label salud-color" for="activo">Activar Perfil</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col  d-flex justify-content-center ">
+
+                        @* <a class="btn btn-danger "  href="@Url.Action("Index","Profile")">Cerrar</a> *@
+
+                        <a type="button" class="btn btn-danger" style="margin:4px;" href="@Url.Action("Index","Profile")">Cerrar</a>
+                        <input type="submit" id="btn_modal_edit_profile" name="" class="btn btn-success p-2" style="margin:4px;" value="Guardar" />
+
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col">
+            <div class="tab_box">
+
+                <button class="tab_btn active">Usuarios</button>
+                <button class="tab_btn">Acciones</button>
+                <div class="line"></div>
+            </div>
+
+            <div class="content_box ">
+                <div class="content active">
+
+                    <div class="tab-content ">
+
+                        <div class="row">
+
+                            <div class="col-md-3 col-4 col-sm-12 mt-2" style="z-index:1;">
+                                @if (Actions.Contains(15))
+                                {
+                                    <div class="form-select" id="selectUsersProfile">
+                                        @Html.Partial("_SelectOpcUser",lstUser)
+                                    </div>
+
+
+                                    <div class="row mt-4 d-flex justify-content-center">
+                                        <div class="col-xl-6 col-md-6   col-sm-4 mb-3 mt-2">
+
+                                            <button id="btnAgregarUsuarioPerfil" type="button" class="btn btn-primary col-12">
+                                                <i class="fa fa-plus mr-1" aria-hidden="true"></i>
+                                                Agregar
+                                            </button>
+
+
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+
+
+                            <div class="col">
+                                @if (Actions.Contains(16))
+                                {
+                                    <div class="row m-1">
+                                        <div class="d-flex w-100 justify-content-between">
+
+                                            <h4 class="col ps-4">Usuarios asociados al Perfil</h4>
+                                            <!--Barra busqueda-->
+                                            <div class="col input-group ">
+                                                <input type="text"
+                                                       class="form-control"
+                                                       placeholder="Buscar..."
+                                                       aria-label="Buscar..."
+                                                       aria-describedby="button-search"
+                                                       id="buscarUP" value="@ViewBag.palabraBuscar" />
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row " style="padding-left:50px;">
+                                        <select class=" col-sm-2 custom-select select-item border-light" aria-label="Default select example" id="tamanoPaginaUP">
+
+                                            <option value="2">2</option>
+                                            <option value="5">5</option>
+                                            <option value="10">10</option>
+
+
+                                        </select>
+                                    </div>
+
+                                    <div class="row table_render " id="tableUserProfile">
+                                        @Html.Partial("_UsersProfile",Usuarios)
+                                    </div>
+                                }
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="content scroll">
+                    @if (Actions.Contains(18))
+                    {
+                        <div class="d-flex justify-content-center">
+                            <h5>Lista de Acciones del Sistema</h5>
+
+                        </div>
+                        <!--Va el arbol-->
+                        <div class="scroll">
+                            @Html.Partial("_ArbolView")
+                        </div>
+
+                        <div class="col d-flex justify-content-center mt-3">
+
+                            <input type="submit"
+                                   value="Guardar cambios"
+                                   class="btn btn-success col-xl-2 col-md-3 col-12"
+                                   data-toggle="modal"
+                                   data-target="#modalSave"
+                                   id="btn_save_actions" />
+                        </div>
+
+
+                    }
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+<div class="modal fade" id="modalVerifyPassword" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Guardar cambios</h5>
+
+
+            </div>
+            <div class="modal-body">
+
+
+                <form id="verifyPassword" class="login-form">
+                    <div class="form-group salud-bg">
+                        <div class="textbox">
+                            <input disabled id="username" type="text" placeholder="Usuario" value="@Context.User.Identity.Name" />
+                            <span class="material-symbols-outlined"> account_circle </span>
+                        </div>
+                        <div class="textbox">
+                            <input id="password_verify" type="password" placeholder="Contraseña" required />
+                            <span class="material-symbols-outlined "> lock </span>
+                        </div>
+                    </div>
+                    <input id="btnSaveActions" class="btn btn-lg btn-success" type="submit" value="Guardar Cambios" />
+
+                </form>
+
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/Profile.js"></script>
+<style>
+
+    .custom-tree {
+        padding-left: 0;
+    }
+
+
+        .custom-tree > .list-group-item {
+            display: flex;
+            align-items: center;
+    @* border: none; *@ background: none;
+            border: 3px solid #1023;
+        }
+
+    .btn-toggle {
+        margin-left: 10px;
+    }
+
+        .btn-toggle .fas {
+            transition: transform 0.3s;
+        }
+
+    .expanded .btn-toggle .fas {
+        transform: rotate(90deg);
+    }
+</style>
+<script>
+
+
+    $(document).ready(function () {
+
+        originalFormValues = getFormValues(formElement);
+
+
+
+        let data = [];
+        var id = doc.getElementById("id_perfil_edit").value;
+        fetchMethod({
+            url: "/Privileges/Profile/Tree?id=" + id,
+            cbSuccess: (res) => {
+                data = res.result;
+
+                // Obtener el contenedor donde se creará el árbol de privilegios
+                const privilegesTree = $('#tree');
+
+                // Construir y agregar el árbol de privilegios al contenedor
+                privilegesTree.append(buildTree(data));
+
+            }
+        });
+        // function buildTree(data) {
+        //     const ul = $('<ul>').addClass('list-group custom-tree');
+
+        //     data.forEach(item => {
+        //         const li = $('<li>').addClass('list-group-item d-flex justify-content-between align-items-center');
+        //         const checkboxDiv = $('<div>').addClass('form-check');
+        //         const checkbox = $('<input>').attr({
+        //             type: 'checkbox',
+        //             'data-id': item.idAccion,
+        //             checked: item.checked
+        //         }).addClass('form-check-input').appendTo(checkboxDiv);
+        //         checkboxDiv.append(checkbox);
+        //         li.append(checkboxDiv);
+
+        //         const textDiv = $('<div>').addClass('ml-2');
+        //         const text = $('<span>').text(item.text || 'No Text').addClass('font-weight-bold');
+        //         textDiv.append(text);
+        //         li.append(textDiv);
+
+        //         if (item.children.length > 0) {
+        //             const childrenUl = buildTree(item.children);
+        //             li.append(childrenUl);
+
+        //             checkbox.on('change', function () {
+        //                 childrenUl.find('input[type="checkbox"]').prop('checked', checkbox.prop('checked'));
+        //             });
+        //         }
+
+        //         ul.append(li);
+        //     });
+
+        //     return ul;
+        // }
+        function buildTree(data) {
+            const ul = $('<ul>').addClass('list-group custom-tree');
+
+            data.forEach(item => {
+                const li = $('<li>').addClass('list-group-item');
+
+                const checkboxDiv = $('<div>').addClass('form-check mr-2');
+                const checkbox = $('<input>').attr({
+                    type: 'checkbox',
+                    'data-id': item.idAccion,
+                    checked: item.checked
+                }).addClass('form-check-input').appendTo(checkboxDiv);
+                checkboxDiv.append(checkbox);
+                li.append(checkboxDiv);
+
+                const textDiv = $('<div>').text(item.text || 'No Text').addClass('font-weight-bold');
+                li.append(textDiv);
+
+                if (item.children.length > 0) {
+                    const toggleButton = $('<button>').addClass('btn btn-link btn-toggle');
+                    li.append(toggleButton);
+
+                    const icon = $('<i>').addClass('fas fa-chevron-right');
+                    toggleButton.append(icon);
+
+                    toggleButton.on('click', function () {
+                        const childrenUl = li.find('ul');
+                        childrenUl.slideToggle();
+                        li.toggleClass('expanded');
+                    });
+
+                    const childrenUl = buildTree(item.children);
+                    childrenUl.hide();
+                    li.append(childrenUl);
+
+                    // Agregamos el controlador de clic para los checkboxes del módulo
+                    checkbox.on('click', function () {
+                        childrenUl.find('input[type="checkbox"]').prop('checked', checkbox.prop('checked'));
+                    });
+                }
+
+                ul.append(li);
+            });
+
+            return ul;
+        }
+
+
+
+        // Obtener el contenedor donde se creará el árbol de privilegios
+        const privilegesTree = $('#tree');
+
+        // Construir y agregar el árbol de privilegios al contenedor
+        privilegesTree.append(buildTree(data));
+
+    });
+
+    const tabs = document.querySelectorAll('.tab_btn');
+
+    const all_content = document.querySelectorAll('.content');
+
+
+    tabs.forEach((tab, index) => {
+
+        tab.addEventListener('click', (e) => {
+
+            tabs.forEach(tab => { tab.classList.remove('active') });
+            tab.classList.add('active');
+
+            var line = document.querySelector('.line');
+            line.style.width = e.target.offsetWidth + "px";
+            line.style.left = e.target.offsetLeft + "px";
+            all_content.forEach(content => { content.classList.remove('active') });
+            all_content[index].classList.add('active');
+        })
+
+
+
+    });
+</script>
+
+
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />

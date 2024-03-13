@@ -1,0 +1,140 @@
+﻿@{
+
+
+}
+
+<style>
+   
+
+    input {
+        text-align: center;
+    }
+
+    .btn-toggle {
+        margin-left: 10px;
+    }
+
+        .btn-toggle .fas {
+            transition: transform 0.3s;
+        }
+
+    .expanded .btn-toggle .fas {
+        transform: rotate(90deg);
+    }
+</style>
+
+<div class="container">
+
+    <div class="col">
+
+        <div class="tab_box">
+            <button class="tab_btn active">Información</button>
+            <button class="tab_btn">Medicamentos</button>
+            <button class="tab_btn">Antecedentes</button>
+            <button class="tab_btn">Act Físicas</button>
+            <button class="tab_btn">Citas</button>
+            <button class="tab_btn">Asistencia</button>
+            <button class="tab_btn">Cuestionarios</button>
+            <button class="tab_btn">Documentos</button>
+            <div class="line"></div>
+
+        </div>
+
+
+        <div class="content_box">
+            <div class="content active">
+                <div class="tab-content">
+                    @* <partial name="_Information"></partial> *@
+                    <partial name="_InformationModule" /> 
+
+                 
+                </div>
+            </div>
+            <div class="content ">
+                <div class="tab-content">
+
+                    <partial name="_MedicinesModule "></partial>
+                 
+
+                </div>
+            </div>
+
+            <div class="content ">
+                <div class="tab-content">
+
+                    <partial name="_HistoryModule"></partial>
+          
+
+
+                </div>
+            </div>
+
+            <div class="content ">
+                <div class="tab-content">
+                    <partial name="_FhysicalActivityModule"></partial>
+               
+
+
+                </div>
+            </div>
+
+            <div class="content ">
+                <div class="tab-content">
+                    <partial name="_DateModule"></partial>
+    
+
+
+                </div>
+            </div>
+            
+            <div class="content ">
+                <div class="tab-content">
+                    <partial name="_AttendaceModule"></partial>
+         
+                </div>
+            </div>
+
+            <div class="content ">
+                <div class="tab-content">
+                    <partial name="_QuestionModule"></partial>
+                 
+
+                </div>
+            </div>
+
+            <div class="content ">
+                <div class="tab-content">
+                    <partial name="_DocumentsModule"></partial>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    const tabs = document.querySelectorAll('.tab_btn');
+
+    const all_content = document.querySelectorAll('.content');
+
+
+    tabs.forEach((tab, index) => {
+
+        tab.addEventListener('click', (e) => {
+
+            tabs.forEach(tab => { tab.classList.remove('active') });
+            tab.classList.add('active');
+
+            var line = document.querySelector('.line');
+            line.style.width = e.target.offsetWidth + "px";
+            line.style.left = e.target.offsetLeft + "px";
+            all_content.forEach(content => { content.classList.remove('active') });
+            all_content[index].classList.add('active');
+        })
+
+
+
+    });
+</script>

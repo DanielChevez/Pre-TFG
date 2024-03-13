@@ -1,0 +1,52 @@
+﻿@model Medical_Record_Models.DTO.FolderDTO
+
+@{
+
+}
+
+<div class="card_folder">
+    <div class="card__img">
+        
+            <img src="/img/fondo azul.svg" />
+         
+    </div>
+    <div class="card__avatar">
+        @if (Model.Sexo == "Masculino")
+        {
+            <img src="~/img/men young.svg" />
+        }
+        else
+        {
+            <img src="~/img/female_ img.png" />
+        }
+    </div>
+    <div class="card__title">
+
+
+        <div class="bottom-section">
+            <span class="title">@Model.Nombre </span>
+            <div class="row row1">
+                <div class="item">
+                    <span class="big-text"> @Model.Cedula</span>
+                    <span class="regular-text">Cedula</span>
+                </div>
+                <div class="item">
+                    <span class="big-text">@Model.Numero_Expediente</span>
+                    <span class="regular-text">Expediente</span>
+                </div>
+                <div class="item">
+                    <span class="big-text">@Model.Fase</span>
+                    <span class="regular-text">Fase</span>
+                </div>
+              
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card__wrapper">
+        <a value="@Model.Id_Paciente" href="/Folders/Folder/View_Modules?IdPaciente=@Model.Id_Paciente" id="folder_view" class="btn card__btn">Ver</a>
+        
+
+    </div>
+</div>
